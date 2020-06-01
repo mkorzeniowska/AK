@@ -1,0 +1,70 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port CLK_50MHZ -pg 1 -lvl 0 -x -10 -y -400 -defaultsOSRD
+preplace port RST -pg 1 -lvl 0 -x -10 -y -380 -defaultsOSRD
+preplace port DS18B20_RDY -pg 1 -lvl 0 -x -10 -y -150 -defaultsOSRD
+preplace port RX_RDY -pg 1 -lvl 0 -x -10 -y -80 -defaultsOSRD
+preplace port RX_INT -pg 1 -lvl 3 -x 1340 -y -160 -defaultsOSRD
+preplace port TX -pg 1 -lvl 3 -x 1340 -y -140 -defaultsOSRD
+preplace port DOWNLOADER_ON_LED -pg 1 -lvl 0 -x -10 -y -180 -defaultsOSRD
+preplace port WR_LCD -pg 1 -lvl 3 -x 1340 -y -680 -defaultsOSRD
+preplace port WR_TX -pg 1 -lvl 3 -x 1340 -y -660 -defaultsOSRD
+preplace port RD_EN -pg 1 -lvl 3 -x 1340 -y -640 -defaultsOSRD
+preplace port LED_EN -pg 1 -lvl 3 -x 1340 -y -620 -defaultsOSRD
+preplace port ACK -pg 1 -lvl 3 -x 1340 -y -600 -defaultsOSRD
+preplace port start -pg 1 -lvl 3 -x 1340 -y -580 -defaultsOSRD
+preplace port TX_INT -pg 1 -lvl 0 -x -10 -y -120 -defaultsOSRD
+preplace port RX -pg 1 -lvl 0 -x -10 -y -100 -defaultsOSRD
+preplace portBus IN_RDY -pg 1 -lvl 0 -x -10 -y -560 -defaultsOSRD
+preplace portBus DATA_RX -pg 1 -lvl 0 -x -10 -y -540 -defaultsOSRD
+preplace portBus BYTE0 -pg 1 -lvl 0 -x -10 -y -520 -defaultsOSRD
+preplace portBus BYTE1 -pg 1 -lvl 0 -x -10 -y -500 -defaultsOSRD
+preplace portBus TEN -pg 1 -lvl 0 -x -10 -y -480 -defaultsOSRD
+preplace portBus ONE -pg 1 -lvl 0 -x -10 -y -460 -defaultsOSRD
+preplace portBus HUN -pg 1 -lvl 0 -x -10 -y -440 -defaultsOSRD
+preplace portBus OUT_PORT -pg 1 -lvl 3 -x 1340 -y -440 -defaultsOSRD
+preplace inst PBLAZE_DOWNLOADER_0 -pg 1 -lvl 2 -x 1070 -y -150 -defaultsOSRD
+preplace inst PBlazeZH_0 -pg 1 -lvl 2 -x 1070 -y -390 -defaultsOSRD
+preplace inst Mux_Multiplekser_0 -pg 1 -lvl 1 -x 720 -y -470 -defaultsOSRD
+preplace inst DEKODER_ADRESOWY_0 -pg 1 -lvl 2 -x 1070 -y -630 -defaultsOSRD
+preplace inst xup_or2_0_0 -pg 1 -lvl 1 -x 720 -y -260 -defaultsOSRD
+preplace inst xup_or2_1_0 -pg 1 -lvl 1 -x 720 -y -140 -defaultsOSRD
+preplace netloc IN_RDY_0_1 1 0 1 N -560
+preplace netloc DATA_RX_0_1 1 0 1 N -540
+preplace netloc BYTE0_0_1 1 0 1 N -520
+preplace netloc BYTE1_0_1 1 0 1 N -500
+preplace netloc TEN_0_1 1 0 1 N -480
+preplace netloc ONE_0_1 1 0 1 N -460
+preplace netloc HUN_0_1 1 0 1 N -440
+preplace netloc CLK_50MHZ_0_1 1 0 2 10 -620 870
+preplace netloc RST_0_1 1 0 2 40 -630 880
+preplace netloc a_0_1 1 0 1 N -150
+preplace netloc b_0_1 1 0 1 30 -130n
+preplace netloc PBLAZE_DOWNLOADER_0_RX_INT 1 2 1 N -160
+preplace netloc PBLAZE_DOWNLOADER_0_TX 1 2 1 N -140
+preplace netloc PBlazeZH_0_OUT_PORT 1 2 1 N -440
+preplace netloc ON_OFF_0_1 1 0 2 40J -70 890J
+preplace netloc DEKODER_ADRESOWY_0_WR_LCD 1 2 1 N -680
+preplace netloc DEKODER_ADRESOWY_0_WR_TX 1 2 1 N -660
+preplace netloc DEKODER_ADRESOWY_0_RD_EN 1 2 1 N -640
+preplace netloc DEKODER_ADRESOWY_0_LED_EN 1 2 1 N -620
+preplace netloc DEKODER_ADRESOWY_0_ACK 1 2 1 N -600
+preplace netloc DEKODER_ADRESOWY_0_start 1 2 1 N -580
+preplace netloc Mux_Multiplekser_0_port_in_reg 1 1 1 850 -470n
+preplace netloc PBlazeZH_0_PORT_ID 1 0 3 50 -640 890 -520 1240
+preplace netloc PBlazeZH_0_READ_STROBE 1 1 2 900 -500 1230
+preplace netloc PBlazeZH_0_WRITE_STROBE 1 1 2 910 -510 1250
+preplace netloc xup_or2_0_0_y 1 1 1 860 -390n
+preplace netloc xup_or2_1_0_y 1 1 1 850 -410n
+preplace netloc PBLAZE_DOWNLOADER_0_INSTRUCTION 1 1 2 910 -270 1230
+preplace netloc PBlazeZH_0_ADDRESS 1 1 2 910 -260 1240
+preplace netloc TX_INT_0_1 1 0 2 20J -50 900J
+preplace netloc PBLAZE_DOWNLOADER_0_ACTIVE 1 0 3 50 -40 NJ -40 1230
+preplace netloc RX_0_1 1 0 2 10J -60 910J
+levelinfo -pg 1 -10 720 1070 1340
+pagesize -pg 1 -db -bbox -sgen -230 -740 1500 220
+"
+}
+

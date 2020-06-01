@@ -1,0 +1,345 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x7F54C52C18FBDC4C",
+      "device": "xc7z020clg400-2",
+      "name": "design_multikontroler",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "PBLAZE_DOWNLOADER_0": "",
+      "PBlazeZH_0": "",
+      "Mux_Multiplekser_0": "",
+      "DEKODER_ADRESOWY_0": "",
+      "xup_or2_0_0": "",
+      "xup_or2_1_0": ""
+    },
+    "ports": {
+      "IN_RDY": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      },
+      "DATA_RX": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "BYTE0": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "BYTE1": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "TEN": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "ONE": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "HUN": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "CLK_50MHZ": {
+        "direction": "I"
+      },
+      "RST": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "DS18B20_RDY": {
+        "direction": "I"
+      },
+      "RX_RDY": {
+        "direction": "I"
+      },
+      "RX_INT": {
+        "direction": "O"
+      },
+      "TX": {
+        "direction": "O"
+      },
+      "OUT_PORT": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "DOWNLOADER_ON_LED": {
+        "direction": "I"
+      },
+      "WR_LCD": {
+        "direction": "O"
+      },
+      "WR_TX": {
+        "direction": "O"
+      },
+      "RD_EN": {
+        "direction": "O"
+      },
+      "LED_EN": {
+        "direction": "O"
+      },
+      "ACK": {
+        "direction": "O"
+      },
+      "start": {
+        "direction": "O"
+      },
+      "TX_INT": {
+        "direction": "I"
+      },
+      "RX": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "PBLAZE_DOWNLOADER_0": {
+        "vlnv": "xilinx.com:user:PBLAZE_DOWNLOADER:1.0",
+        "xci_name": "design_multikontroler_PBLAZE_DOWNLOADER_0_0"
+      },
+      "PBlazeZH_0": {
+        "vlnv": "xilinx.com:user:PBlazeZH:1.0",
+        "xci_name": "design_multikontroler_PBlazeZH_0_0"
+      },
+      "Mux_Multiplekser_0": {
+        "vlnv": "xilinx.com:user:Mux_Multiplekser:1.0",
+        "xci_name": "design_multikontroler_Mux_Multiplekser_0_0"
+      },
+      "DEKODER_ADRESOWY_0": {
+        "vlnv": "xilinx.com:user:DEKODER_ADRESOWY:1.0",
+        "xci_name": "design_multikontroler_DEKODER_ADRESOWY_0_0"
+      },
+      "xup_or2_0_0": {
+        "vlnv": "xilinx.com:user:xup_or2_0:1.0",
+        "xci_name": "design_multikontroler_xup_or2_0_0_0"
+      },
+      "xup_or2_1_0": {
+        "vlnv": "xilinx.com:user:xup_or2_1:1.0",
+        "xci_name": "design_multikontroler_xup_or2_1_0_0"
+      }
+    },
+    "nets": {
+      "IN_RDY_0_1": {
+        "ports": [
+          "IN_RDY",
+          "Mux_Multiplekser_0/IN_RDY"
+        ]
+      },
+      "DATA_RX_0_1": {
+        "ports": [
+          "DATA_RX",
+          "Mux_Multiplekser_0/DATA_RX"
+        ]
+      },
+      "BYTE0_0_1": {
+        "ports": [
+          "BYTE0",
+          "Mux_Multiplekser_0/BYTE0"
+        ]
+      },
+      "BYTE1_0_1": {
+        "ports": [
+          "BYTE1",
+          "Mux_Multiplekser_0/BYTE1"
+        ]
+      },
+      "TEN_0_1": {
+        "ports": [
+          "TEN",
+          "Mux_Multiplekser_0/TEN"
+        ]
+      },
+      "ONE_0_1": {
+        "ports": [
+          "ONE",
+          "Mux_Multiplekser_0/ONE"
+        ]
+      },
+      "HUN_0_1": {
+        "ports": [
+          "HUN",
+          "Mux_Multiplekser_0/HUN"
+        ]
+      },
+      "CLK_50MHZ_0_1": {
+        "ports": [
+          "CLK_50MHZ",
+          "Mux_Multiplekser_0/CLK_50MHZ",
+          "DEKODER_ADRESOWY_0/CLK",
+          "PBlazeZH_0/CLK",
+          "PBLAZE_DOWNLOADER_0/CLK"
+        ]
+      },
+      "RST_0_1": {
+        "ports": [
+          "RST",
+          "Mux_Multiplekser_0/RST",
+          "DEKODER_ADRESOWY_0/RST",
+          "PBLAZE_DOWNLOADER_0/RST",
+          "xup_or2_0_0/b"
+        ]
+      },
+      "a_0_1": {
+        "ports": [
+          "DS18B20_RDY",
+          "xup_or2_1_0/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "RX_RDY",
+          "xup_or2_1_0/b"
+        ]
+      },
+      "PBLAZE_DOWNLOADER_0_RX_INT": {
+        "ports": [
+          "PBLAZE_DOWNLOADER_0/RX_INT",
+          "RX_INT"
+        ]
+      },
+      "PBLAZE_DOWNLOADER_0_TX": {
+        "ports": [
+          "PBLAZE_DOWNLOADER_0/TX",
+          "TX"
+        ]
+      },
+      "PBlazeZH_0_OUT_PORT": {
+        "ports": [
+          "PBlazeZH_0/OUT_PORT",
+          "OUT_PORT"
+        ]
+      },
+      "ON_OFF_0_1": {
+        "ports": [
+          "DOWNLOADER_ON_LED",
+          "PBLAZE_DOWNLOADER_0/ON_OFF"
+        ]
+      },
+      "DEKODER_ADRESOWY_0_WR_LCD": {
+        "ports": [
+          "DEKODER_ADRESOWY_0/WR_LCD",
+          "WR_LCD"
+        ]
+      },
+      "DEKODER_ADRESOWY_0_WR_TX": {
+        "ports": [
+          "DEKODER_ADRESOWY_0/WR_TX",
+          "WR_TX"
+        ]
+      },
+      "DEKODER_ADRESOWY_0_RD_EN": {
+        "ports": [
+          "DEKODER_ADRESOWY_0/RD_EN",
+          "RD_EN"
+        ]
+      },
+      "DEKODER_ADRESOWY_0_LED_EN": {
+        "ports": [
+          "DEKODER_ADRESOWY_0/LED_EN",
+          "LED_EN"
+        ]
+      },
+      "DEKODER_ADRESOWY_0_ACK": {
+        "ports": [
+          "DEKODER_ADRESOWY_0/ACK",
+          "ACK"
+        ]
+      },
+      "DEKODER_ADRESOWY_0_start": {
+        "ports": [
+          "DEKODER_ADRESOWY_0/start",
+          "start"
+        ]
+      },
+      "Mux_Multiplekser_0_port_in_reg": {
+        "ports": [
+          "Mux_Multiplekser_0/port_in_reg",
+          "PBlazeZH_0/IN_PORT"
+        ]
+      },
+      "PBlazeZH_0_PORT_ID": {
+        "ports": [
+          "PBlazeZH_0/PORT_ID",
+          "DEKODER_ADRESOWY_0/PORT_ID",
+          "Mux_Multiplekser_0/PORT_ID"
+        ]
+      },
+      "PBlazeZH_0_READ_STROBE": {
+        "ports": [
+          "PBlazeZH_0/READ_STROBE",
+          "DEKODER_ADRESOWY_0/READ_STROBE"
+        ]
+      },
+      "PBlazeZH_0_WRITE_STROBE": {
+        "ports": [
+          "PBlazeZH_0/WRITE_STROBE",
+          "DEKODER_ADRESOWY_0/WRITE_STROBE"
+        ]
+      },
+      "xup_or2_0_0_y": {
+        "ports": [
+          "xup_or2_0_0/y",
+          "PBlazeZH_0/RESET"
+        ]
+      },
+      "xup_or2_1_0_y": {
+        "ports": [
+          "xup_or2_1_0/y",
+          "PBlazeZH_0/INTERRUPT"
+        ]
+      },
+      "PBLAZE_DOWNLOADER_0_INSTRUCTION": {
+        "ports": [
+          "PBLAZE_DOWNLOADER_0/INSTRUCTION",
+          "PBlazeZH_0/INSTRUCTION"
+        ]
+      },
+      "PBlazeZH_0_ADDRESS": {
+        "ports": [
+          "PBlazeZH_0/ADDRESS",
+          "PBLAZE_DOWNLOADER_0/ADDRESS"
+        ]
+      },
+      "TX_INT_0_1": {
+        "ports": [
+          "TX_INT",
+          "PBLAZE_DOWNLOADER_0/TX_INT"
+        ]
+      },
+      "PBLAZE_DOWNLOADER_0_ACTIVE": {
+        "ports": [
+          "PBLAZE_DOWNLOADER_0/ACTIVE",
+          "xup_or2_0_0/a"
+        ]
+      },
+      "RX_0_1": {
+        "ports": [
+          "RX",
+          "PBLAZE_DOWNLOADER_0/RX"
+        ]
+      }
+    }
+  }
+}
