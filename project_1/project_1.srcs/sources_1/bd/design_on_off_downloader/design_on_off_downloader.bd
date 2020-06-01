@@ -1,0 +1,112 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x6A476FE750ACB207",
+      "device": "xc7z020clg400-2",
+      "name": "design_on_off_downloader",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "uart_0_0": "",
+      "dekoder_0_0": ""
+    },
+    "ports": {
+      "CLK": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_on_off_downloader_CLK",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "CLK_RX": {
+        "direction": "I"
+      },
+      "RX": {
+        "direction": "I"
+      },
+      "RES": {
+        "direction": "O"
+      },
+      "ON_OFF": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "uart_0_0": {
+        "vlnv": "xilinx.com:user:uart_0:1.0",
+        "xci_name": "design_on_off_downloader_uart_0_0_0"
+      },
+      "dekoder_0_0": {
+        "vlnv": "xilinx.com:user:dekoder_0:1.0",
+        "xci_name": "design_on_off_downloader_dekoder_0_0_0"
+      }
+    },
+    "nets": {
+      "uart_0_0_DATA": {
+        "ports": [
+          "uart_0_0/DATA",
+          "dekoder_0_0/DATA"
+        ]
+      },
+      "uart_0_0_RDY": {
+        "ports": [
+          "uart_0_0/RDY",
+          "dekoder_0_0/RDY"
+        ]
+      },
+      "CLK_0_1": {
+        "ports": [
+          "CLK",
+          "dekoder_0_0/CLK"
+        ]
+      },
+      "CLK_RX_0_1": {
+        "ports": [
+          "CLK_RX",
+          "uart_0_0/CLK_RX"
+        ]
+      },
+      "RX_0_1": {
+        "ports": [
+          "RX",
+          "uart_0_0/RX"
+        ]
+      },
+      "dekoder_0_0_ACK": {
+        "ports": [
+          "dekoder_0_0/ACK",
+          "uart_0_0/ACK"
+        ]
+      },
+      "dekoder_0_0_RES": {
+        "ports": [
+          "dekoder_0_0/RES",
+          "RES"
+        ]
+      },
+      "dekoder_0_0_ON_OFF": {
+        "ports": [
+          "dekoder_0_0/ON_OFF",
+          "ON_OFF"
+        ]
+      }
+    }
+  }
+}
