@@ -1,0 +1,150 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x709BD00E3DD0B59D",
+      "device": "xc7z020clg400-2",
+      "name": "design_lcd",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "laczenie_LCD_0": "",
+      "lcd_putchar_8_0": ""
+    },
+    "ports": {
+      "DATA_in": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "EN1": {
+        "direction": "I"
+      },
+      "LCD_E": {
+        "direction": "O"
+      },
+      "LCD_RS": {
+        "direction": "O"
+      },
+      "LCD_RW": {
+        "direction": "O"
+      },
+      "LCD_DB": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "CLK_250kHZ": {
+        "direction": "I"
+      },
+      "CLK_WR": {
+        "direction": "I"
+      },
+      "WR_EN": {
+        "direction": "I"
+      },
+      "RST": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "BF": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "laczenie_LCD_0": {
+        "vlnv": "xilinx.com:user:laczenie_LCD:1.0",
+        "xci_name": "design_lcd_laczenie_LCD_0_0"
+      },
+      "lcd_putchar_8_0": {
+        "vlnv": "xilinx.com:user:lcd_putchar_8:1.0",
+        "xci_name": "design_lcd_lcd_putchar_8_0_0"
+      }
+    },
+    "nets": {
+      "laczenie_LCD_0_DATA_out": {
+        "ports": [
+          "laczenie_LCD_0/DATA_out",
+          "lcd_putchar_8_0/DATA_IN"
+        ]
+      },
+      "DATA_in_0_1": {
+        "ports": [
+          "DATA_in",
+          "laczenie_LCD_0/DATA_in"
+        ]
+      },
+      "EN1_0_1": {
+        "ports": [
+          "EN1",
+          "laczenie_LCD_0/EN1"
+        ]
+      },
+      "lcd_putchar_8_0_LCD_E": {
+        "ports": [
+          "lcd_putchar_8_0/LCD_E",
+          "LCD_E"
+        ]
+      },
+      "lcd_putchar_8_0_LCD_RS": {
+        "ports": [
+          "lcd_putchar_8_0/LCD_RS",
+          "LCD_RS"
+        ]
+      },
+      "lcd_putchar_8_0_LCD_RW": {
+        "ports": [
+          "lcd_putchar_8_0/LCD_RW",
+          "LCD_RW"
+        ]
+      },
+      "lcd_putchar_8_0_LCD_DB": {
+        "ports": [
+          "lcd_putchar_8_0/LCD_DB",
+          "LCD_DB"
+        ]
+      },
+      "CLK_250kHZ_0_1": {
+        "ports": [
+          "CLK_250kHZ",
+          "lcd_putchar_8_0/CLK_250kHZ"
+        ]
+      },
+      "CLK_WR_0_1": {
+        "ports": [
+          "CLK_WR",
+          "lcd_putchar_8_0/CLK_WR"
+        ]
+      },
+      "WR_EN_0_1": {
+        "ports": [
+          "WR_EN",
+          "lcd_putchar_8_0/WR_EN"
+        ]
+      },
+      "RST_0_1": {
+        "ports": [
+          "RST",
+          "lcd_putchar_8_0/RST"
+        ]
+      },
+      "BF_0_1": {
+        "ports": [
+          "BF",
+          "lcd_putchar_8_0/BF"
+        ]
+      }
+    }
+  }
+}
