@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Jun  2 16:48:18 2020" VIVADOVERSION="2019.1">
+
+  <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="design_lcd" PACKAGE="clg400" SPEEDGRADE="-2"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="7" NAME="DATA_in" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_DATA_in">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="laczenie_LCD_0" PORT="DATA_in"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="EN1" SIGIS="undef" SIGNAME="External_Ports_EN1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="laczenie_LCD_0" PORT="EN1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LCD_E" SIGIS="undef" SIGNAME="lcd_putchar_8_0_LCD_E">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lcd_putchar_8_0" PORT="LCD_E"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LCD_RS" SIGIS="undef" SIGNAME="lcd_putchar_8_0_LCD_RS">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lcd_putchar_8_0" PORT="LCD_RS"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LCD_RW" SIGIS="undef" SIGNAME="lcd_putchar_8_0_LCD_RW">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lcd_putchar_8_0" PORT="LCD_RW"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="7" NAME="LCD_DB" RIGHT="0" SIGIS="undef" SIGNAME="lcd_putchar_8_0_LCD_DB">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lcd_putchar_8_0" PORT="LCD_DB"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CLK_250kHZ" SIGIS="undef" SIGNAME="External_Ports_CLK_250kHZ">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lcd_putchar_8_0" PORT="CLK_250kHZ"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CLK_WR" SIGIS="undef" SIGNAME="External_Ports_CLK_WR">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lcd_putchar_8_0" PORT="CLK_WR"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="WR_EN" SIGIS="undef" SIGNAME="External_Ports_WR_EN">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lcd_putchar_8_0" PORT="WR_EN"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="RST" SIGIS="rst" SIGNAME="External_Ports_RST">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lcd_putchar_8_0" PORT="RST"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BF" SIGIS="undef" SIGNAME="External_Ports_BF">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="lcd_putchar_8_0" PORT="BF"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="3" FULLNAME="/laczenie_LCD_0" HWVERSION="1.0" INSTANCE="laczenie_LCD_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="laczenie_LCD" VLNV="xilinx.com:user:laczenie_LCD:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_lcd_laczenie_LCD_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="DATA_in" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_DATA_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="DATA_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="EN1" SIGIS="undef" SIGNAME="External_Ports_EN1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="EN1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="8" NAME="DATA_out" RIGHT="0" SIGIS="undef" SIGNAME="laczenie_LCD_0_DATA_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="lcd_putchar_8_0" PORT="DATA_IN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/lcd_putchar_8_0" HWVERSION="1.0" INSTANCE="lcd_putchar_8_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="lcd_putchar_8" VLNV="xilinx.com:user:lcd_putchar_8:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_lcd_lcd_putchar_8_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="CLK_250kHZ" SIGIS="undef" SIGNAME="External_Ports_CLK_250kHZ">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_250kHZ"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLK_WR" SIGIS="undef" SIGNAME="External_Ports_CLK_WR">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_WR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="WR_EN" SIGIS="undef" SIGNAME="External_Ports_WR_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="WR_EN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RST" SIGIS="rst" SIGNAME="External_Ports_RST">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RST"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BF" SIGIS="undef" SIGNAME="External_Ports_BF">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BF"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="8" NAME="DATA_IN" RIGHT="0" SIGIS="undef" SIGNAME="laczenie_LCD_0_DATA_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="laczenie_LCD_0" PORT="DATA_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="LCD_E" SIGIS="undef" SIGNAME="lcd_putchar_8_0_LCD_E">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LCD_E"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="LCD_RS" SIGIS="undef" SIGNAME="lcd_putchar_8_0_LCD_RS">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LCD_RS"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="LCD_RW" SIGIS="undef" SIGNAME="lcd_putchar_8_0_LCD_RW">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LCD_RW"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="LCD_DB" RIGHT="0" SIGIS="undef" SIGNAME="lcd_putchar_8_0_LCD_DB">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LCD_DB"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

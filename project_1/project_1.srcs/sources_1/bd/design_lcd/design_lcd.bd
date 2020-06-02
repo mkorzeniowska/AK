@@ -9,8 +9,8 @@
       "validated": "true"
     },
     "design_tree": {
-      "laczenie_LCD_0": "",
-      "lcd_putchar_8_0": ""
+      "lcd_putchar_8_0": "",
+      "laczenie_LCD_0": ""
     },
     "ports": {
       "DATA_in": {
@@ -63,13 +63,13 @@
       }
     },
     "components": {
-      "laczenie_LCD_0": {
-        "vlnv": "xilinx.com:user:laczenie_LCD:1.0",
-        "xci_name": "design_lcd_laczenie_LCD_0_0"
-      },
       "lcd_putchar_8_0": {
         "vlnv": "xilinx.com:user:lcd_putchar_8:1.0",
         "xci_name": "design_lcd_lcd_putchar_8_0_0"
+      },
+      "laczenie_LCD_0": {
+        "vlnv": "xilinx.com:user:laczenie_LCD:1.0",
+        "xci_name": "design_lcd_laczenie_LCD_0_0"
       }
     },
     "nets": {

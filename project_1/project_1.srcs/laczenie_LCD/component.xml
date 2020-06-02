@@ -18,7 +18,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>239ecaaa</spirit:value>
+            <spirit:value>b79085bf</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -34,7 +34,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>239ecaaa</spirit:value>
+            <spirit:value>b79085bf</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -109,7 +109,7 @@
       <spirit:file>
         <spirit:name>src/laczenie_LCD.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_239ecaaa</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_b79085bf</spirit:userFileType>
         <spirit:userFileType>IMPORTED_FILE</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
@@ -148,19 +148,24 @@
       </xilinx:taxonomies>
       <xilinx:displayName>laczenie_LCD_v1_0</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
-      <xilinx:coreRevision>2</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2020-06-01T19:02:47Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>3</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2020-06-02T14:46:23Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@29607920_ARCHIVE_LOCATION">c:/users/admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@568b016_ARCHIVE_LOCATION">c:/users/admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d61dca0_ARCHIVE_LOCATION">c:/users/admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@152736c7_ARCHIVE_LOCATION">c:/users/admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1dacee9b_ARCHIVE_LOCATION">c:/users/admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56312d72_ARCHIVE_LOCATION">c:/users/admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d1cb2eb_ARCHIVE_LOCATION">c:/users/admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@756061f1_ARCHIVE_LOCATION">c:/users/admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f35ca41_ARCHIVE_LOCATION">c:/users/admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a3277c9_ARCHIVE_LOCATION">c:/users/admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6350ab86_ARCHIVE_LOCATION">c:/Users/Admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d056167_ARCHIVE_LOCATION">c:/Users/Admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44e90dc_ARCHIVE_LOCATION">c:/Users/Admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@62ce3e08_ARCHIVE_LOCATION">c:/Users/Admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f53e699_ARCHIVE_LOCATION">c:/Users/Admin/repozytorium/project_1/project_1.srcs/laczenie_LCD</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2019.1</xilinx:xilinxVersion>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="0d8f94a2"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="71b9e4d1"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="4ab493e8"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="f6817afc"/>
     </xilinx:packagingInfo>

@@ -13,8 +13,8 @@ preplace port RST -pg 1 -lvl 0 -x -280 -y -280 -defaultsOSRD
 preplace port BF -pg 1 -lvl 0 -x -280 -y -260 -defaultsOSRD
 preplace portBus DATA_in -pg 1 -lvl 0 -x -280 -y -380 -defaultsOSRD
 preplace portBus LCD_DB -pg 1 -lvl 3 -x 390 -y -260 -defaultsOSRD
-preplace inst laczenie_LCD_0 -pg 1 -lvl 1 -x -90 -y -300 -defaultsOSRD
 preplace inst lcd_putchar_8_0 -pg 1 -lvl 2 -x 200 -y -290 -defaultsOSRD
+preplace inst laczenie_LCD_0 -pg 1 -lvl 1 -x -90 -y -300 -defaultsOSRD
 preplace netloc laczenie_LCD_0_DATA_out 1 1 1 40 -300n
 preplace netloc DATA_in_0_1 1 0 1 -250 -380n
 preplace netloc EN1_0_1 1 0 1 -220 -360n
@@ -31,4 +31,4 @@ levelinfo -pg 1 -280 -90 200 390
 pagesize -pg 1 -db -bbox -sgen -420 -420 530 140
 "
 }
-
+0

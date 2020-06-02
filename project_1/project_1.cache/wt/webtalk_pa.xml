@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Mon Jun  1 21:33:21 2020">
+<application name="pa" timeStamp="Tue Jun  2 16:48:19 2020">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="dd42e8cdbe30417599c6e306222e7ca8" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -16,10 +16,26 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
+<item name="Java Command Handlers">
+<property name="ReportIPStatus" value="1" type="JavaHandler"/>
+<property name="UpgradeIP" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Handlers">
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="11" type="GuiHandlerData"/>
+<property name="HPopupTitle_CLOSE" value="1" type="GuiHandlerData"/>
+<property name="IPStatusSectionPanel_UPGRADE_SELECTED" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_AUTO_UPDATE_HIER" value="2" type="GuiHandlerData"/>
+<property name="PAViews_PROJECT_SUMMARY" value="1" type="GuiHandlerData"/>
+<property name="SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY" value="1" type="GuiHandlerData"/>
+<property name="SrcFilePropPanels_MORE_INFO" value="1" type="GuiHandlerData"/>
+<property name="SrcMenu_IP_HIERARCHY" value="2" type="GuiHandlerData"/>
+<property name="SystemTab_REPORT_IP_STATUS" value="1" type="GuiHandlerData"/>
+<property name="SystemTreeView_SYSTEM_TREE" value="1" type="GuiHandlerData"/>
+</item>
 <item name="Other">
-<property name="GuiMode" value="1" type="GuiMode"/>
+<property name="GuiMode" value="2" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="0" type="TclMode"/>
+<property name="TclMode" value="1" type="TclMode"/>
 </item>
 </section>
 </application>

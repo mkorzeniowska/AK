@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-//Date        : Mon Jun  1 21:08:58 2020
+//Date        : Tue Jun  2 16:48:17 2020
 //Host        : DESKTOP-8EKKICA running 64-bit major release  (build 9200)
 //Command     : generate_target design_lcd.bd
 //Design      : design_lcd
