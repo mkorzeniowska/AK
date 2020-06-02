@@ -1,0 +1,21 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port CLK_RX -pg 1 -lvl 2 -x 450 -y -90 -defaultsOSRD
+preplace port CLK_TX -pg 1 -lvl 2 -x 450 -y -70 -defaultsOSRD
+preplace port CLK -pg 1 -lvl 0 -x -20 -y -10 -defaultsOSRD
+preplace port CLK_250kHz -pg 1 -lvl 2 -x 450 -y -160 -defaultsOSRD
+preplace port CLK_1MHz -pg 1 -lvl 2 -x 450 -y -140 -defaultsOSRD
+preplace inst SERIAL_CLOCK_0 -pg 1 -lvl 1 -x 310 -y -10 -defaultsOSRD
+preplace inst Clock_0_0 -pg 1 -lvl 1 -x 310 -y -150 -defaultsOSRD
+preplace netloc SERIAL_CLOCK_0_CLK_RX 1 1 1 410J -90n
+preplace netloc SERIAL_CLOCK_0_CLK_TX 1 1 1 420J -70n
+preplace netloc CLK_0_1 1 0 1 0 -150n
+preplace netloc Clock_0_0_CLK_250kHz 1 1 1 NJ -160
+preplace netloc Clock_0_0_CLK_1MHz 1 1 1 NJ -140
+levelinfo -pg 1 -20 310 450
+pagesize -pg 1 -db -bbox -sgen -100 -280 600 190
+"
+}
+

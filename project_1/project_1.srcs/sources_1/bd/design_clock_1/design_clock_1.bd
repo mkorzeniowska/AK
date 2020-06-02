@@ -1,0 +1,95 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x3E707AEC293F87B5",
+      "device": "xc7z020clg400-2",
+      "name": "design_clock_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "SERIAL_CLOCK_0": "",
+      "Clock_0_0": ""
+    },
+    "ports": {
+      "CLK_RX": {
+        "direction": "O"
+      },
+      "CLK_TX": {
+        "direction": "O"
+      },
+      "CLK": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_clock_1_CLK",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "CLK_250kHz": {
+        "direction": "O"
+      },
+      "CLK_1MHz": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "SERIAL_CLOCK_0": {
+        "vlnv": "xilinx.com:user:SERIAL_CLOCK:1.0",
+        "xci_name": "design_clock_1_SERIAL_CLOCK_0_0"
+      },
+      "Clock_0_0": {
+        "vlnv": "xilinx.com:user:Clock_0:1.0",
+        "xci_name": "design_clock_1_Clock_0_0_1"
+      }
+    },
+    "nets": {
+      "SERIAL_CLOCK_0_CLK_RX": {
+        "ports": [
+          "SERIAL_CLOCK_0/CLK_RX",
+          "CLK_RX"
+        ]
+      },
+      "SERIAL_CLOCK_0_CLK_TX": {
+        "ports": [
+          "SERIAL_CLOCK_0/CLK_TX",
+          "CLK_TX"
+        ]
+      },
+      "CLK_0_1": {
+        "ports": [
+          "CLK",
+          "SERIAL_CLOCK_0/CLK",
+          "Clock_0_0/CLK"
+        ]
+      },
+      "Clock_0_0_CLK_250kHz": {
+        "ports": [
+          "Clock_0_0/CLK_250kHz",
+          "CLK_250kHz"
+        ]
+      },
+      "Clock_0_0_CLK_1MHz": {
+        "ports": [
+          "Clock_0_0/CLK_1MHz",
+          "CLK_1MHz"
+        ]
+      }
+    }
+  }
+}
