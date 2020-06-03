@@ -21,6 +21,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPRepoPath" Val="$PSRCDIR/APLIKACJA"/>
     <Option Name="IPRepoPath" Val="$PSRCDIR/calosc"/>
     <Option Name="IPRepoPath" Val="$PSRCDIR/PROJEKT"/>
     <Option Name="IPRepoPath" Val="$PSRCDIR/CLOCK_1"/>
@@ -122,6 +123,62 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../project_02_zal/project_02_zal.srcs/sources_1/imports/Verilog Hajduk/ds18b20.v"/>
           <Attr Name="ImportTime" Val="1482159830"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Admin/Documents/STUDIA/2rok/4semestr/Architektura komputerów/Verilog Hajduk/Verilog Hajduk/pBlazeZH.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/STUDIA/2rok/4semestr/Architektura komputerów/Verilog Hajduk/Verilog Hajduk/pBlazeZH.v"/>
+          <Attr Name="ImportTime" Val="1482159836"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/uart_0.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_02_zal/project_02_zal.srcs/sources_1/new/uart_0.v"/>
+          <Attr Name="ImportTime" Val="1590588630"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sources_1/laczenie_LCD/src/laczenie_LCD.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_02_zal/project_02_zal.srcs/sources_1/laczenie_LCD/src/laczenie_LCD.v"/>
+          <Attr Name="ImportTime" Val="1590574396"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/design_zynq7/design_zynq7.bd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/design_aplikacja/design_aplikacja.bd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hdl/design_aplikacja_wrapper.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/design_aplikacja/hdl/design_aplikacja_wrapper.v"/>
+          <Attr Name="ImportTime" Val="1591186619"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -257,16 +314,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/sources_1/laczenie_LCD/src/laczenie_LCD.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../project_02_zal/project_02_zal.srcs/sources_1/laczenie_LCD/src/laczenie_LCD.v"/>
-          <Attr Name="ImportTime" Val="1590574396"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/Verilog Hajduk/lcd_putchar_8.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
@@ -282,16 +329,6 @@
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../project_02_zal/project_02_zal.srcs/sources_1/imports/Verilog Hajduk/led_display.v"/>
           <Attr Name="ImportTime" Val="1482159702"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/Admin/Documents/STUDIA/2rok/4semestr/Architektura komputerów/Verilog Hajduk/Verilog Hajduk/pBlazeZH.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/STUDIA/2rok/4semestr/Architektura komputerów/Verilog Hajduk/Verilog Hajduk/pBlazeZH.v"/>
-          <Attr Name="ImportTime" Val="1482159836"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -357,16 +394,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/sources_1/new/uart_0.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../project_02_zal/project_02_zal.srcs/sources_1/new/uart_0.v"/>
-          <Attr Name="ImportTime" Val="1590588630"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/sources_1/xup_or1/src/xup_or2_0.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
@@ -387,16 +414,13 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/bd/design_aplikacja/design_aplikacja.bd">
+      <File Path="$PPRDIR/project.src/CALY/design_CALY/design_CALY.bd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/LCD/component.xml">
-        <FileInfo SFType="IPXACT"/>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>

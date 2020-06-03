@@ -1,0 +1,35 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1000 -y -80 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1000 -y -60 -defaultsOSRD
+preplace port LCD_E -pg 1 -lvl 4 -x 1000 -y 50 -defaultsOSRD
+preplace port LCD_RS -pg 1 -lvl 4 -x 1000 -y 70 -defaultsOSRD
+preplace port LCD_RW -pg 1 -lvl 4 -x 1000 -y 90 -defaultsOSRD
+preplace port ON_OFF -pg 1 -lvl 4 -x 1000 -y -10 -defaultsOSRD
+preplace port OW_RST_STAT -pg 1 -lvl 4 -x 1000 -y 10 -defaultsOSRD
+preplace portBus LCD_DB -pg 1 -lvl 4 -x 1000 -y -110 -defaultsOSRD
+preplace portBus LED -pg 1 -lvl 4 -x 1000 -y -30 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 300 -y 10 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 570 -y -40 -defaultsOSRD
+preplace inst design_aplikacja_wra_0 -pg 1 -lvl 3 -x 820 -y -40 -defaultsOSRD
+preplace netloc design_aplikacja_wra_0_LCD_DB 1 3 1 NJ -110
+preplace netloc design_aplikacja_wra_0_LCD_E 1 3 1 980J -90n
+preplace netloc design_aplikacja_wra_0_LCD_RS 1 3 1 960J -70n
+preplace netloc design_aplikacja_wra_0_LCD_RW 1 3 1 950J -50n
+preplace netloc design_aplikacja_wra_0_LED 1 3 1 NJ -30
+preplace netloc design_aplikacja_wra_0_ON_OFF 1 3 1 NJ -10
+preplace netloc design_aplikacja_wra_0_OW_RST_STAT 1 3 1 NJ 10
+preplace netloc clk_wiz_0_clk_out1 1 2 1 660 -60n
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 1 480 -40n
+preplace netloc processing_system7_0_UART0_TX 1 1 2 470 20 700J
+preplace netloc design_aplikacja_wra_0_TX 1 1 3 460 -120 690J 110 930
+preplace netloc processing_system7_0_UART1_TX 1 1 2 N 40 710J
+preplace netloc processing_system7_0_DDR 1 1 3 450J -110 680J 100 970J
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 480J -100 670J 90 940J
+levelinfo -pg 1 -60 300 570 820 1000
+pagesize -pg 1 -db -bbox -sgen -60 -440 1160 200
+"
+}
+
