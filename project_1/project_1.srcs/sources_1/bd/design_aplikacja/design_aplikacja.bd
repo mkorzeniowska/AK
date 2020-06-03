@@ -14,10 +14,10 @@
       "bin2bcd_0": "",
       "SERIAL_RX_FIFO_0": "",
       "SERIAL_TX_FIFO_0": "",
-      "DS18B20_0": "",
       "LED_0": "",
-      "design_lcd_wrapper_0": "",
-      "design_clock_1_wrapp_0": ""
+      "design_clock_1_wrapp_0": "",
+      "DS18B20_0": "",
+      "design_lcd_wrapper_0": ""
     },
     "ports": {
       "LED": {
@@ -97,21 +97,21 @@
         "vlnv": "xilinx.com:user:SERIAL_TX_FIFO:1.0",
         "xci_name": "design_aplikacja_SERIAL_TX_FIFO_0_0"
       },
-      "DS18B20_0": {
-        "vlnv": "xilinx.com:user:DS18B20:1.0",
-        "xci_name": "design_aplikacja_DS18B20_0_0"
-      },
       "LED_0": {
         "vlnv": "xilinx.com:user:LED:1.0",
         "xci_name": "design_aplikacja_LED_0_0"
       },
-      "design_lcd_wrapper_0": {
-        "vlnv": "xilinx.com:user:design_lcd_wrapper:1.0",
-        "xci_name": "design_aplikacja_design_lcd_wrapper_0_0"
-      },
       "design_clock_1_wrapp_0": {
         "vlnv": "xilinx.com:user:design_clock_1_wrapper:1.0",
         "xci_name": "design_aplikacja_design_clock_1_wrapp_0_0"
+      },
+      "DS18B20_0": {
+        "vlnv": "xilinx.com:user:DS18B20:1.0",
+        "xci_name": "design_aplikacja_DS18B20_0_0"
+      },
+      "design_lcd_wrapper_0": {
+        "vlnv": "xilinx.com:user:design_lcd_wrapper:1.0",
+        "xci_name": "design_aplikacja_design_lcd_wrapper_0_0"
       }
     },
     "nets": {
@@ -142,15 +142,15 @@
       "CLK_0_1": {
         "ports": [
           "CLK",
-          "DS18B20_0/CLK",
           "bin2bcd_0/clk",
           "SERIAL_RX_FIFO_0/CLK_RD",
           "design_multikontrole_0/CLK_50MHZ",
           "LED_0/CLK",
           "design_on_off_downlo_0/CLK",
           "SERIAL_TX_FIFO_0/CLK_WR",
-          "design_lcd_wrapper_0/CLK_WR",
-          "design_clock_1_wrapp_0/CLK"
+          "design_clock_1_wrapp_0/CLK",
+          "DS18B20_0/CLK",
+          "design_lcd_wrapper_0/CLK_WR"
         ]
       },
       "Net": {
@@ -188,9 +188,9 @@
         "ports": [
           "design_multikontrole_0/OUT_PORT",
           "bin2bcd_0/data_in",
-          "design_lcd_wrapper_0/DATA_in",
           "LED_0/OUT_PORT",
-          "SERIAL_TX_FIFO_0/DATA"
+          "SERIAL_TX_FIFO_0/DATA",
+          "design_lcd_wrapper_0/DATA_in"
         ]
       },
       "design_on_off_downlo_0_ON_OFF": {
@@ -233,12 +233,12 @@
       "Net2": {
         "ports": [
           "design_on_off_downlo_0/RES",
-          "DS18B20_0/RST",
           "SERIAL_RX_FIFO_0/RST",
           "design_multikontrole_0/RST",
-          "design_lcd_wrapper_0/RST",
           "LED_0/RST",
-          "SERIAL_TX_FIFO_0/RST"
+          "SERIAL_TX_FIFO_0/RST",
+          "DS18B20_0/RST",
+          "design_lcd_wrapper_0/RST"
         ]
       },
       "RX_0_2": {
@@ -329,6 +329,12 @@
         "ports": [
           "design_multikontrole_0/ACK",
           "DS18B20_0/ACK"
+        ]
+      },
+      "bin2bcd_0_done": {
+        "ports": [
+          "bin2bcd_0/done",
+          "design_multikontrole_0/IN_RDY"
         ]
       }
     }
