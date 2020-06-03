@@ -1,0 +1,1259 @@
+
+*** Running vivado
+    with args -log design_CALY_design_aplikacja_wra_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_CALY_design_aplikacja_wra_0_0.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source design_CALY_design_aplikacja_wra_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/admin/repozytorium/project_1/project_1.srcs/APLIKACJA'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/calosc'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/PROJEKT'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/CLOCK_1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/clock_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/led'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/bin2bcd'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/serial_clock'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/serial_tx_fifo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/serial_rx_fifo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/ds18b20'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/on_off_downloader'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/uart_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/dekoder_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/LCD'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/lcd_putchar'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/laczenie_LCD'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/multikontroler'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/xup_or2_1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/xup_or2_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/pblazeZH'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/mux_multiplekser'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/dekoder_adresowy'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/repozytorium/project_1/project_1.srcs/pb_downloader'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_CALY_design_aplikacja_wra_0_0 -part xc7z020clg400-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12968 
+WARNING: [Synth 8-2611] redeclaration of ansi port IN_RDY is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:37]
+WARNING: [Synth 8-2611] redeclaration of ansi port DATA_RX is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:38]
+WARNING: [Synth 8-2611] redeclaration of ansi port BYTE0 is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:38]
+WARNING: [Synth 8-2611] redeclaration of ansi port BYTE1 is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:38]
+WARNING: [Synth 8-2611] redeclaration of ansi port TEN is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:39]
+WARNING: [Synth 8-2611] redeclaration of ansi port ONE is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:39]
+WARNING: [Synth 8-2611] redeclaration of ansi port TEN is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:39]
+WARNING: [Synth 8-2611] redeclaration of ansi port PORT_ID is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:39]
+WARNING: [Synth 8-976] TEN has already been declared [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:39]
+WARNING: [Synth 8-2654] second declaration of TEN ignored [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:39]
+INFO: [Synth 8-6826] previous declaration of 'TEN' is from here [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port CLK_50MHZ is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:40]
+WARNING: [Synth 8-2611] redeclaration of ansi port RST is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:40]
+WARNING: [Synth 8-2611] redeclaration of ansi port PORT_ID is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:38]
+WARNING: [Synth 8-2611] redeclaration of ansi port CLK is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:39]
+WARNING: [Synth 8-2611] redeclaration of ansi port READ_STROBE is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:40]
+WARNING: [Synth 8-2611] redeclaration of ansi port WRITE_STROBE is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:41]
+WARNING: [Synth 8-2611] redeclaration of ansi port WR_LCD is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:42]
+WARNING: [Synth 8-2611] redeclaration of ansi port WR_TX is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:43]
+WARNING: [Synth 8-2611] redeclaration of ansi port LED_EN is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:44]
+WARNING: [Synth 8-2611] redeclaration of ansi port ACK is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:45]
+WARNING: [Synth 8-2611] redeclaration of ansi port start is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:46]
+WARNING: [Synth 8-2611] redeclaration of ansi port RD_EN is not allowed [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:47]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 747.211 ; gain = 183.672
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_CALY_design_aplikacja_wra_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/synth/design_CALY_design_aplikacja_wra_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja_wrapper' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ipshared/dcbd/src/design_aplikacja_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ipshared/dcbd/src/design_aplikacja.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja_DS18B20_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_DS18B20_0_0/synth/design_aplikacja_DS18B20_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'DS18B20' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ds18b20.v:19]
+INFO: [Synth 8-6157] synthesizing module 'TIMER' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/timer.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'TIMER' (1#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/timer.v:19]
+INFO: [Synth 8-6157] synthesizing module 'OW_READ' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ow_read.v:19]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ow_read.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'OW_READ' (2#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ow_read.v:19]
+INFO: [Synth 8-6157] synthesizing module 'OW_WRITE' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ow_write.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'OW_WRITE' (3#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ow_write.v:18]
+INFO: [Synth 8-6157] synthesizing module 'OW_RESET' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ow_reset.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'OW_RESET' (4#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ow_reset.v:20]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ds18b20.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'DS18B20' (5#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ds18b20.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja_DS18B20_0_0' (6#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_DS18B20_0_0/synth/design_aplikacja_DS18B20_0_0.v:58]
+WARNING: [Synth 8-7023] instance 'DS18B20_0' of module 'design_aplikacja_DS18B20_0_0' has 10 connections declared, but only 9 given [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ipshared/dcbd/src/design_aplikacja.v:83]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja_LED_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_LED_0_0/synth/design_aplikacja_LED_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LED' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/d9e9/src/LED.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LED' (7#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/d9e9/src/LED.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja_LED_0_0' (8#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_LED_0_0/synth/design_aplikacja_LED_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja_SERIAL_RX_FIFO_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_SERIAL_RX_FIFO_0_0/synth/design_aplikacja_SERIAL_RX_FIFO_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'SERIAL_RX_FIFO' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/ae8d/src/serial_rx_fifo.v:19]
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'SERIAL_RX' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/serial_rx.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'SERIAL_RX' (9#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/serial_rx.v:19]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/ae8d/src/serial_rx_fifo.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'SERIAL_RX_FIFO' (10#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/ae8d/src/serial_rx_fifo.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja_SERIAL_RX_FIFO_0_0' (11#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_SERIAL_RX_FIFO_0_0/synth/design_aplikacja_SERIAL_RX_FIFO_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja_SERIAL_TX_FIFO_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_SERIAL_TX_FIFO_0_0/synth/design_aplikacja_SERIAL_TX_FIFO_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'SERIAL_TX_FIFO' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/serial_tx_fifo.v:19]
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'SERIAL_TX' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/serial_tx.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'SERIAL_TX' (12#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/serial_tx.v:19]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/serial_tx_fifo.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'SERIAL_TX_FIFO' (13#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/serial_tx_fifo.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja_SERIAL_TX_FIFO_0_0' (14#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_SERIAL_TX_FIFO_0_0/synth/design_aplikacja_SERIAL_TX_FIFO_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja_bin2bcd_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_bin2bcd_0_0/synth/design_aplikacja_bin2bcd_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'bin2bcd' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/73c7/src/bin2bcd.v:19]
+	Parameter NO_BITS_IN bound to: 14 - type: integer 
+	Parameter NO_BCD_DIGITS bound to: 4 - type: integer 
+	Parameter BIT_CNT_WIDTH bound to: 4 - type: integer 
+WARNING: [Synth 8-3848] Net HUN in module/entity bin2bcd does not have driver. [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/73c7/src/bin2bcd.v:26]
+WARNING: [Synth 8-3848] Net TEN in module/entity bin2bcd does not have driver. [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/73c7/src/bin2bcd.v:26]
+WARNING: [Synth 8-3848] Net ONE in module/entity bin2bcd does not have driver. [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/73c7/src/bin2bcd.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'bin2bcd' (15#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/73c7/src/bin2bcd.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja_bin2bcd_0_0' (16#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_bin2bcd_0_0/synth/design_aplikacja_bin2bcd_0_0.v:58]
+WARNING: [Synth 8-7023] instance 'bin2bcd_0' of module 'design_aplikacja_bin2bcd_0_0' has 8 connections declared, but only 7 given [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ipshared/dcbd/src/design_aplikacja.v:114]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja_design_clock_1_wrapp_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/synth/design_aplikacja_design_clock_1_wrapp_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_clock_1_wrapper' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/35e3/src/design_clock_1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_clock_1' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/35e3/src/design_clock_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_clock_1_Clock_0_0_1' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/src/design_clock_1_Clock_0_0_1/synth/design_clock_1_Clock_0_0_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Clock_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:23]
+	Parameter DIVISOR bound to: 50 - type: integer 
+	Parameter DIVISOR_2 bound to: 200 - type: integer 
+WARNING: [Synth 8-3848] Net CLK_1MHz in module/entity Clock_0 does not have driver. [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Clock_0' (17#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_clock_1_Clock_0_0_1' (18#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/src/design_clock_1_Clock_0_0_1/synth/design_clock_1_Clock_0_0_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_clock_1_SERIAL_CLOCK_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/src/design_clock_1_SERIAL_CLOCK_0_0/synth/design_clock_1_SERIAL_CLOCK_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'SERIAL_CLOCK' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/serial_clock.v:19]
+	Parameter K bound to: 1 - type: integer 
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SERIAL_CLOCK' (19#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/serial_clock.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'design_clock_1_SERIAL_CLOCK_0_0' (20#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/src/design_clock_1_SERIAL_CLOCK_0_0/synth/design_clock_1_SERIAL_CLOCK_0_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'design_clock_1' (21#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/35e3/src/design_clock_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_clock_1_wrapper' (22#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/35e3/src/design_clock_1_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja_design_clock_1_wrapp_0_0' (23#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/synth/design_aplikacja_design_clock_1_wrapp_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja_design_lcd_wrapper_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_lcd_wrapper_0_0/synth/design_aplikacja_design_lcd_wrapper_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_lcd_wrapper' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/6de2/src/design_lcd_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_lcd' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/6de2/src/design_lcd.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_lcd_laczenie_LCD_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_lcd_laczenie_LCD_0_0/synth/design_lcd_laczenie_LCD_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'laczenie_LCD' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/d50d/src/laczenie_LCD.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'laczenie_LCD' (24#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/d50d/src/laczenie_LCD.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'design_lcd_laczenie_LCD_0_0' (25#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_lcd_laczenie_LCD_0_0/synth/design_lcd_laczenie_LCD_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_lcd_lcd_putchar_8_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_lcd_lcd_putchar_8_0_0/synth/design_lcd_lcd_putchar_8_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'lcd_putchar_8' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/bc99/src/lcd_putchar_8.v:20]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/bc99/src/lcd_putchar_8.v:55]
+INFO: [Synth 8-226] default block is never used [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/bc99/src/lcd_putchar_8.v:75]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/bc99/src/lcd_putchar_8.v:103]
+INFO: [Synth 8-6155] done synthesizing module 'lcd_putchar_8' (26#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/bc99/src/lcd_putchar_8.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'design_lcd_lcd_putchar_8_0_0' (27#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_lcd_lcd_putchar_8_0_0/synth/design_lcd_lcd_putchar_8_0_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'design_lcd' (28#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/6de2/src/design_lcd.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_lcd_wrapper' (29#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/6de2/src/design_lcd_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja_design_lcd_wrapper_0_0' (30#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_lcd_wrapper_0_0/synth/design_aplikacja_design_lcd_wrapper_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja_design_multikontrole_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/synth/design_aplikacja_design_multikontrole_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_multikontroler_wrapper' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/687a/src/design_multikontroler_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_multikontroler' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/687a/src/design_multikontroler.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_multikontroler_DEKODER_ADRESOWY_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_DEKODER_ADRESOWY_0_0/synth/design_multikontroler_DEKODER_ADRESOWY_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'DEKODER_ADRESOWY' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:24]
+INFO: [Synth 8-4471] merging register 'LED_EN_reg' into 'WR_TX_reg' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:69]
+INFO: [Synth 8-4471] merging register 'start_reg' into 'WR_TX_reg' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:70]
+INFO: [Synth 8-4471] merging register 'ACK_reg' into 'WR_TX_reg' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:71]
+WARNING: [Synth 8-6014] Unused sequential element LED_EN_reg was removed.  [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:69]
+WARNING: [Synth 8-6014] Unused sequential element start_reg was removed.  [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:70]
+WARNING: [Synth 8-6014] Unused sequential element ACK_reg was removed.  [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'DEKODER_ADRESOWY' (31#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'design_multikontroler_DEKODER_ADRESOWY_0_0' (32#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_DEKODER_ADRESOWY_0_0/synth/design_multikontroler_DEKODER_ADRESOWY_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_multikontroler_Mux_Multiplekser_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_Mux_Multiplekser_0_0/synth/design_multikontroler_Mux_Multiplekser_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Mux_Multiplekser' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:23]
+WARNING: [Synth 8-3848] Net port_in_reg in module/entity Mux_Multiplekser does not have driver. [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_Multiplekser' (33#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1467/src/Mux_Multiplekser.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_multikontroler_Mux_Multiplekser_0_0' (34#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_Mux_Multiplekser_0_0/synth/design_multikontroler_Mux_Multiplekser_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_multikontroler_PBLAZE_DOWNLOADER_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_PBLAZE_DOWNLOADER_0_0/synth/design_multikontroler_PBLAZE_DOWNLOADER_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'PBLAZE_DOWNLOADER' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/pblaze_downloader.v:20]
+	Parameter K bound to: 1 - type: integer 
+	Parameter N bound to: 1 - type: integer 
+	Parameter DB bound to: 24 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/pblaze_downloader.v:141]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/pblaze_downloader.v:171]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/pblaze_downloader.v:181]
+INFO: [Synth 8-6155] done synthesizing module 'PBLAZE_DOWNLOADER' (35#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/c716/src/pblaze_downloader.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'design_multikontroler_PBLAZE_DOWNLOADER_0_0' (36#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_PBLAZE_DOWNLOADER_0_0/synth/design_multikontroler_PBLAZE_DOWNLOADER_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_multikontroler_PBlazeZH_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_PBlazeZH_0_0/synth/design_multikontroler_PBlazeZH_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'PBlazeZH' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/0f53/src/pBlazeZH.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'PBlazeZH' (37#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/0f53/src/pBlazeZH.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'design_multikontroler_PBlazeZH_0_0' (38#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_PBlazeZH_0_0/synth/design_multikontroler_PBlazeZH_0_0.v:58]
+WARNING: [Synth 8-7023] instance 'PBlazeZH_0' of module 'design_multikontroler_PBlazeZH_0_0' has 11 connections declared, but only 10 given [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/687a/src/design_multikontroler.v:152]
+INFO: [Synth 8-6157] synthesizing module 'design_multikontroler_xup_or2_0_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_xup_or2_0_0_0/synth/design_multikontroler_xup_or2_0_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xup_or2_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/cdc2/src/xup_or2_0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xup_or2_0' (39#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/cdc2/src/xup_or2_0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_multikontroler_xup_or2_0_0_0' (40#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_xup_or2_0_0_0/synth/design_multikontroler_xup_or2_0_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_multikontroler_xup_or2_1_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_xup_or2_1_0_0/synth/design_multikontroler_xup_or2_1_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xup_or2_1' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/5481/src/xup_or2_1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'xup_or2_1' (41#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/5481/src/xup_or2_1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'design_multikontroler_xup_or2_1_0_0' (42#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/src/design_multikontroler_xup_or2_1_0_0/synth/design_multikontroler_xup_or2_1_0_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'design_multikontroler' (43#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/687a/src/design_multikontroler.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_multikontroler_wrapper' (44#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/687a/src/design_multikontroler_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja_design_multikontrole_0_0' (45#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/synth/design_aplikacja_design_multikontrole_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_aplikacja_design_on_off_downlo_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_on_off_downlo_0_0/synth/design_aplikacja_design_on_off_downlo_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_on_off_downloader_wrapper' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/5f22/src/design_on_off_downloader_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_on_off_downloader' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/5f22/src/design_on_off_downloader.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_on_off_downloader_dekoder_0_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_on_off_downlo_0_0/src/design_on_off_downloader_dekoder_0_0_0/synth/design_on_off_downloader_dekoder_0_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'dekoder_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_on_off_downlo_0_0/ipshared/5d6a/src/dekoder_0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dekoder_0' (46#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_on_off_downlo_0_0/ipshared/5d6a/src/dekoder_0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_on_off_downloader_dekoder_0_0_0' (47#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_on_off_downlo_0_0/src/design_on_off_downloader_dekoder_0_0_0/synth/design_on_off_downloader_dekoder_0_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_on_off_downloader_uart_0_0_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_on_off_downlo_0_0/src/design_on_off_downloader_uart_0_0_0/synth/design_on_off_downloader_uart_0_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'uart_0' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_on_off_downlo_0_0/ipshared/1eb8/src/uart_0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'uart_0' (48#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_on_off_downlo_0_0/ipshared/1eb8/src/uart_0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_on_off_downloader_uart_0_0_0' (49#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_on_off_downlo_0_0/src/design_on_off_downloader_uart_0_0_0/synth/design_on_off_downloader_uart_0_0_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'design_on_off_downloader' (50#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/5f22/src/design_on_off_downloader.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_on_off_downloader_wrapper' (51#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/5f22/src/design_on_off_downloader_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja_design_on_off_downlo_0_0' (52#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_on_off_downlo_0_0/synth/design_aplikacja_design_on_off_downlo_0_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja' (53#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ipshared/dcbd/src/design_aplikacja.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_aplikacja_wrapper' (54#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ipshared/dcbd/src/design_aplikacja_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_CALY_design_aplikacja_wra_0_0' (55#1) [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/synth/design_CALY_design_aplikacja_wra_0_0.v:58]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port port_in_reg[7]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port port_in_reg[6]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port port_in_reg[5]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port port_in_reg[4]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port port_in_reg[3]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port port_in_reg[2]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port port_in_reg[1]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port port_in_reg[0]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port IN_RDY[2]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port IN_RDY[1]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port IN_RDY[0]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port DATA_RX[7]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port DATA_RX[6]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port DATA_RX[5]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port DATA_RX[4]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port DATA_RX[3]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port DATA_RX[2]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port DATA_RX[1]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port DATA_RX[0]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE0[7]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE0[6]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE0[5]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE0[4]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE0[3]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE0[2]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE0[1]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE0[0]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE1[7]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE1[6]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE1[5]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE1[4]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE1[3]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE1[2]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE1[1]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port BYTE1[0]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port TEN[3]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port TEN[2]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port TEN[1]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port TEN[0]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port ONE[3]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port ONE[2]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port ONE[1]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port ONE[0]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port HUN[3]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port HUN[2]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port HUN[1]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port HUN[0]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port PORT_ID[3]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port PORT_ID[2]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port PORT_ID[1]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port PORT_ID[0]
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port CLK_50MHZ
+WARNING: [Synth 8-3331] design Mux_Multiplekser has unconnected port RST
+WARNING: [Synth 8-3331] design Clock_0 has unconnected port CLK_1MHz
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port HUN[3]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port HUN[2]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port HUN[1]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port HUN[0]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port TEN[3]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port TEN[2]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port TEN[1]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port TEN[0]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port ONE[3]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port ONE[2]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port ONE[1]
+WARNING: [Synth 8-3331] design bin2bcd has unconnected port ONE[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 800.258 ; gain = 236.719
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 800.258 ; gain = 236.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 800.258 ; gain = 236.719
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_ooc.xdc] for cell 'inst/design_aplikacja_i'
+Finished Parsing XDC File [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_ooc.xdc] for cell 'inst/design_aplikacja_i'
+Parsing XDC File [C:/Users/Admin/repozytorium/project_1/project_1.runs/design_CALY_design_aplikacja_wra_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Admin/repozytorium/project_1/project_1.runs/design_CALY_design_aplikacja_wra_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 940.629 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 952.559 ; gain = 11.930
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 952.559 ; gain = 389.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 952.559 ; gain = 389.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_lcd_wrapper_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_multikontrole_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/Mux_Multiplekser_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/DEKODER_ADRESOWY_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/xup_or2_0_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/xup_or2_1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_on_off_downlo_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_on_off_downlo_0/inst/design_on_off_downloader_i/uart_0_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_on_off_downlo_0/inst/design_on_off_downloader_i/dekoder_0_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/bin2bcd_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/SERIAL_RX_FIFO_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/SERIAL_TX_FIFO_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/DS18B20_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/LED_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_clock_1_wrapp_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/SERIAL_CLOCK_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_lcd_wrapper_0/inst/design_lcd_i/laczenie_LCD_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_aplikacja_i/design_lcd_wrapper_0/inst/design_lcd_i/lcd_putchar_8_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 952.559 ; gain = 389.020
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'st_reg' in module 'OW_READ'
+INFO: [Synth 8-802] inferred FSM for state register 'st_reg' in module 'OW_WRITE'
+INFO: [Synth 8-802] inferred FSM for state register 'st_reg' in module 'OW_RESET'
+INFO: [Synth 8-802] inferred FSM for state register 'st_reg' in module 'DS18B20'
+INFO: [Synth 8-5546] ROM "temp_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "temp_rdy" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reset_crc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "crc_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "tx_act" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "rx_act" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "wire1_rst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'st_reg' in module 'SERIAL_RX_FIFO'
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/0f53/src/pBlazeZH.v:91]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE4 |                              000 |                              000
+                 iSTATE5 |                              001 |                              001
+                  iSTATE |                              010 |                              010
+                 iSTATE0 |                              011 |                              011
+                 iSTATE1 |                              100 |                              101
+                 iSTATE2 |                              101 |                              110
+                 iSTATE3 |                              110 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'st_reg' using encoding 'sequential' in module 'OW_READ'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                              000
+                 iSTATE5 |                              001 |                              001
+                 iSTATE0 |                              010 |                              010
+                 iSTATE1 |                              011 |                              011
+                 iSTATE2 |                              100 |                              100
+                 iSTATE3 |                              101 |                              101
+                 iSTATE4 |                              110 |                              110
+                 iSTATE6 |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'st_reg' using encoding 'sequential' in module 'OW_WRITE'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                              000
+                 iSTATE0 |                              001 |                              001
+                 iSTATE1 |                              010 |                              010
+                 iSTATE2 |                              011 |                              011
+                 iSTATE3 |                              100 |                              100
+                 iSTATE6 |                              101 |                              101
+                 iSTATE4 |                              110 |                              110
+                 iSTATE5 |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'st_reg' using encoding 'sequential' in module 'OW_RESET'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                iSTATE12 |                            00000 |                            00000
+                 iSTATE8 |                            00001 |                            00001
+                 iSTATE6 |                            00010 |                            00010
+                 iSTATE4 |                            00011 |                            00011
+                iSTATE23 |                            00100 |                            00100
+                iSTATE21 |                            00101 |                            00101
+                iSTATE17 |                            00110 |                            00110
+                iSTATE15 |                            00111 |                            00111
+                iSTATE20 |                            01000 |                            01000
+                iSTATE19 |                            01001 |                            01001
+                iSTATE13 |                            01010 |                            01010
+                iSTATE10 |                            01011 |                            01011
+                 iSTATE1 |                            01100 |                            01100
+                 iSTATE0 |                            01101 |                            01101
+                  iSTATE |                            01110 |                            01110
+                iSTATE22 |                            01111 |                            01111
+                 iSTATE7 |                            10000 |                            10000
+                 iSTATE5 |                            10001 |                            10001
+                 iSTATE3 |                            10010 |                            10010
+                 iSTATE2 |                            10011 |                            10011
+                 iSTATE9 |                            10100 |                            10111
+                iSTATE18 |                            10101 |                            10100
+                iSTATE16 |                            10110 |                            10101
+                iSTATE11 |                            10111 |                            10110
+                iSTATE14 |                            11000 |                            11000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'st_reg' using encoding 'sequential' in module 'DS18B20'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'st_reg' using encoding 'sequential' in module 'SERIAL_RX_FIFO'
+INFO: [Synth 8-6430] The Block RAM "PBLAZE_DOWNLOADER:/PMEM_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 952.559 ; gain = 389.020
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     28 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
+	   3 Input      9 Bit       Adders := 1     
+	   4 Input      9 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 11    
+	   2 Input      4 Bit       Adders := 11    
+	   2 Input      3 Bit       Adders := 7     
+	   2 Input      1 Bit       Adders := 2     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 3     
++---XORs : 
+	                8 Bit    Wide XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	               13 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 10    
+	                7 Bit    Registers := 4     
+	                5 Bit    Registers := 17    
+	                4 Bit    Registers := 12    
+	                3 Bit    Registers := 9     
+	                1 Bit    Registers := 93    
++---RAMs : 
+	              18K Bit         RAMs := 1     
+	              320 Bit         RAMs := 1     
+	              288 Bit         RAMs := 1     
+	              256 Bit         RAMs := 2     
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	  16 Input     20 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	  21 Input     13 Bit        Muxes := 1     
+	  16 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	  18 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   7 Input      8 Bit        Muxes := 1     
+	  25 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	  10 Input      8 Bit        Muxes := 3     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+	  25 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 7     
+	   6 Input      5 Bit        Muxes := 2     
+	  12 Input      5 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	  18 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 15    
+	   6 Input      4 Bit        Muxes := 6     
+	  12 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 7     
+	   7 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 3     
+	  25 Input      3 Bit        Muxes := 1     
+	  16 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	  18 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 75    
+	   7 Input      1 Bit        Muxes := 11    
+	   8 Input      1 Bit        Muxes := 15    
+	  25 Input      1 Bit        Muxes := 17    
+	   4 Input      1 Bit        Muxes := 6     
+	   6 Input      1 Bit        Muxes := 9     
+	  21 Input      1 Bit        Muxes := 9     
+	  12 Input      1 Bit        Muxes := 7     
+	  16 Input      1 Bit        Muxes := 15    
+	   3 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 4     
+	  18 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module TIMER 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module OW_READ 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   7 Input      8 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   7 Input      1 Bit        Muxes := 11    
+Module OW_WRITE 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   8 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 7     
+Module OW_RESET 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   8 Input      7 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 6     
+Module DS18B20 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	  25 Input      8 Bit        Muxes := 1     
+	  25 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	  25 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	  25 Input      1 Bit        Muxes := 17    
+Module SERIAL_RX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 12    
+	   8 Input      1 Bit        Muxes := 1     
+Module SERIAL_RX_FIFO 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
++---Registers : 
+	                5 Bit    Registers := 4     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+Module SERIAL_TX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module SERIAL_TX_FIFO 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	              256 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   6 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 4     
+Module bin2bcd 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   6 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 5     
+Module Clock_0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     28 Bit       Adders := 1     
+Module SERIAL_CLOCK 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+Module lcd_putchar_8 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 9     
++---RAMs : 
+	              288 Bit         RAMs := 1     
++---Muxes : 
+	  21 Input     13 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	  12 Input      5 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  21 Input      1 Bit        Muxes := 9     
+	  12 Input      1 Bit        Muxes := 7     
+Module DEKODER_ADRESOWY 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module PBLAZE_DOWNLOADER 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 10    
++---RAMs : 
+	              18K Bit         RAMs := 1     
++---Muxes : 
+	  16 Input     20 Bit        Muxes := 1     
+	  16 Input     10 Bit        Muxes := 1     
+	  10 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   3 Input      4 Bit        Muxes := 1     
+	  16 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 15    
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	   4 Input      1 Bit        Muxes := 3     
+Module PBlazeZH 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 1     
+	   4 Input      9 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
++---XORs : 
+	                8 Bit    Wide XORs := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---RAMs : 
+	              320 Bit         RAMs := 1     
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	  18 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	  10 Input      8 Bit        Muxes := 1     
+	  18 Input      5 Bit        Muxes := 1     
+	  18 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'inst/w1rst/bus_in_sync_reg' into 'inst/w1rd/bus_in_sync_reg' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/ipshared/a061/src/ow_reset.v:29]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port port_in_reg[7]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port port_in_reg[6]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port port_in_reg[5]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port port_in_reg[4]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port port_in_reg[3]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port port_in_reg[2]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port port_in_reg[1]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port port_in_reg[0]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port IN_RDY[2]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port IN_RDY[1]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port IN_RDY[0]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port DATA_RX[7]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port DATA_RX[6]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port DATA_RX[5]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port DATA_RX[4]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port DATA_RX[3]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port DATA_RX[2]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port DATA_RX[1]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port DATA_RX[0]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE0[7]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE0[6]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE0[5]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE0[4]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE0[3]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE0[2]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE0[1]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE0[0]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE1[7]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE1[6]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE1[5]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE1[4]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE1[3]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE1[2]
+WARNING: [Synth 8-3331] design design_multikontroler_Mux_Multiplekser_0_0 has unconnected port BYTE1[1]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+RAM Pipeline Warning: Read Address Register Found For RAM inst/PMEM_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM inst/PMEM_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-6430] The Block RAM "\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/PMEM_reg " may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+INFO: [Synth 8-4652] Swapped enable and write-enable on 1 RAM instances of RAM inst/PMEM_reg to conserve power
+RAM Pipeline Warning: Read Address Register Found For RAM inst/PMEM_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1rst/tc_reg[0]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1rst/tc_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1rd/tc_reg[0]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1rd/tc_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1wr/tc_reg[0]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1wr/tc_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1rd/tc_reg[1]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1rd/tc_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1wr/tc_reg[1]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1wr/tc_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1rd/tc_reg[2]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1rd/tc_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1wr/tc_reg[2]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1wr/tc_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1rst/tc_reg[3]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1rst/tc_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1rd/tc_reg[3]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1rd/tc_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1wr/tc_reg[3]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1wr/tc_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1rd/tc_reg[5]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1rd/tc_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/w1wr/tc_reg[5]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/w1wr/tc_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/design_aplikacja_i/DS18B20_0 /\inst/w1rd/tc_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/design_aplikacja_i/DS18B20_0 /\inst/w1wr/tc_reg[6] )
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/temp_data_reg[7]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/temp_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/temp_data_reg[5]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/temp_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/DS18B20_0/inst/temp_data_reg[4]' (FDE) to 'inst/design_aplikacja_i/DS18B20_0/inst/temp_data_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/design_aplikacja_i/DS18B20_0 /\inst/temp_data_reg[0] )
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/SERIAL_TX_FIFO_0/inst/rd_cnt_reg_rep[3]' (FDE) to 'inst/design_aplikacja_i/SERIAL_TX_FIFO_0/inst/rd_cnt_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/SERIAL_TX_FIFO_0/inst/rd_cnt_reg_rep[2]' (FDE) to 'inst/design_aplikacja_i/SERIAL_TX_FIFO_0/inst/rd_cnt_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/SERIAL_TX_FIFO_0/inst/rd_cnt_reg_rep[1]' (FDE) to 'inst/design_aplikacja_i/SERIAL_TX_FIFO_0/inst/rd_cnt_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/SERIAL_TX_FIFO_0/inst/rd_cnt_reg_rep[0]' (FDE) to 'inst/design_aplikacja_i/SERIAL_TX_FIFO_0/inst/rd_cnt_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/SERIAL_TX_FIFO_0/inst/rd_cnt_reg_rep[4]' (FDE) to 'inst/design_aplikacja_i/SERIAL_TX_FIFO_0/inst/rd_cnt_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/design_aplikacja_i/SERIAL_TX_FIFO_0 /\inst/st_reg[3] )
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/tx1/rd_cnt_reg_rep[3]' (FDE) to 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/tx1/rd_cnt_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/tx1/rd_cnt_reg_rep[2]' (FDE) to 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/tx1/rd_cnt_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/tx1/rd_cnt_reg_rep[1]' (FDE) to 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/tx1/rd_cnt_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/tx1/rd_cnt_reg_rep[0]' (FDE) to 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/tx1/rd_cnt_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/tx1/rd_cnt_reg_rep[4]' (FDE) to 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/tx1/rd_cnt_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0 /\inst/s2_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0 /\inst/tx1/st_reg[3] )
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0/inst/sp_reg_rep[0]' (FDRE) to 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0/inst/sp_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0/inst/sp_reg_rep[1]' (FDRE) to 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0/inst/sp_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0/inst/sp_reg_rep[2]' (FDRE) to 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0/inst/sp_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0/inst/sp_reg_rep[3]' (FDRE) to 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0/inst/sp_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0/inst/sp_reg_rep[4]' (FDRE) to 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBlazeZH_0/inst/sp_reg[4]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 952.559 ; gain = 389.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++--------------------------------------------+------------+---------------+----------------+
+|Module Name                                 | RTL Object | Depth x Width | Implemented As | 
++--------------------------------------------+------------+---------------+----------------+
+|lcd_putchar_8                               | cnt10      | 32x1          | LUT            | 
+|lcd_putchar_8                               | LCD_E      | 32x1          | LUT            | 
+|lcd_putchar_8                               | LCD_E      | 32x1          | LUT            | 
+|PBLAZE_DOWNLOADER                           | STR1       | 32x8          | LUT            | 
+|design_lcd_lcd_putchar_8_0_0                | inst/cnt10 | 32x1          | LUT            | 
+|design_lcd_lcd_putchar_8_0_0                | inst/LCD_E | 32x1          | LUT            | 
+|design_lcd_lcd_putchar_8_0_0                | inst/LCD_E | 32x1          | LUT            | 
+|design_multikontroler_PBLAZE_DOWNLOADER_0_0 | inst/STR1  | 32x8          | LUT            | 
++--------------------------------------------+------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping  Report (see note below)
++-------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name        | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|PBLAZE_DOWNLOADER: | PMEM_reg   | 1 K x 18(READ_FIRST)   | W |   | 1 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++-------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------------------------------------------------------------------------------------------+---------------------+-----------+----------------------+----------------+
+|Module Name                                                                                         | RTL Object          | Inference | Size (Depth x Width) | Primitives     | 
++----------------------------------------------------------------------------------------------------+---------------------+-----------+----------------------+----------------+
+|\inst/design_aplikacja_i/SERIAL_RX_FIFO_0                                                           | inst/FIFO_reg       | Implied   | 32 x 8               | RAM32M x 2     | 
+|\inst/design_aplikacja_i/SERIAL_TX_FIFO_0                                                           | inst/FIFO_reg       | Implied   | 32 x 8               | RAM32M x 2     | 
+|\inst/design_aplikacja_i/design_lcd_wrapper_0 /\inst/design_lcd_i/lcd_putchar_8_0                   | inst/FIFO_reg       | Implied   | 32 x 9               | RAM32M x 2     | 
+|\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0  | inst/tx1/FIFO_reg   | Implied   | 32 x 8               | RAM32M x 2     | 
+|\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBlazeZH_0           | inst/SCRATCHPAD_reg | Implied   | 64 x 8               | RAM64X1S x 8   | 
+|\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBlazeZH_0           | inst/REGISTERS_reg  | Implied   | 16 x 8               | RAM16X1D x 8   | 
+|\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBlazeZH_0           | inst/STACK_reg      | Implied   | 32 x 10              | RAM32M x 2     | 
++----------------------------------------------------------------------------------------------------+---------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/insti_0/inst/PMEM_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 952.559 ; gain = 389.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 953.875 ; gain = 390.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping  Report
++-------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name        | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|PBLAZE_DOWNLOADER: | PMEM_reg   | 1 K x 18(READ_FIRST)   | W |   | 1 K x 18(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++-------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping  Report
++----------------------------------------------------------------------------------------------------+---------------------+-----------+----------------------+----------------+
+|Module Name                                                                                         | RTL Object          | Inference | Size (Depth x Width) | Primitives     | 
++----------------------------------------------------------------------------------------------------+---------------------+-----------+----------------------+----------------+
+|\inst/design_aplikacja_i/SERIAL_RX_FIFO_0                                                           | inst/FIFO_reg       | Implied   | 32 x 8               | RAM32M x 2     | 
+|\inst/design_aplikacja_i/SERIAL_TX_FIFO_0                                                           | inst/FIFO_reg       | Implied   | 32 x 8               | RAM32M x 2     | 
+|\inst/design_aplikacja_i/design_lcd_wrapper_0 /\inst/design_lcd_i/lcd_putchar_8_0                   | inst/FIFO_reg       | Implied   | 32 x 9               | RAM32M x 2     | 
+|\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0  | inst/tx1/FIFO_reg   | Implied   | 32 x 8               | RAM32M x 2     | 
+|\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBlazeZH_0           | inst/SCRATCHPAD_reg | Implied   | 64 x 8               | RAM64X1S x 8   | 
+|\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBlazeZH_0           | inst/REGISTERS_reg  | Implied   | 16 x 8               | RAM16X1D x 8   | 
+|\inst/design_aplikacja_i/design_multikontrole_0 /\inst/design_multikontroler_i/PBlazeZH_0           | inst/STACK_reg      | Implied   | 32 x 10              | RAM32M x 2     | 
++----------------------------------------------------------------------------------------------------+---------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/SERIAL_RX_FIFO_0/inst/rd_cnt_reg_rep[1]' (FDRE) to 'inst/design_aplikacja_i/SERIAL_RX_FIFO_0/inst/rd_cnt_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/SERIAL_RX_FIFO_0/inst/rd_cnt_reg_rep[2]' (FDRE) to 'inst/design_aplikacja_i/SERIAL_RX_FIFO_0/inst/rd_cnt_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/SERIAL_RX_FIFO_0/inst/rd_cnt_reg_rep[3]' (FDRE) to 'inst/design_aplikacja_i/SERIAL_RX_FIFO_0/inst/rd_cnt_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/design_aplikacja_i/SERIAL_RX_FIFO_0/inst/rd_cnt_reg_rep[4]' (FDRE) to 'inst/design_aplikacja_i/SERIAL_RX_FIFO_0/inst/rd_cnt_reg[4]'
+INFO: [Synth 8-6837] The timing for the instance inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/PBLAZE_DOWNLOADER_0/inst/PMEM_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 962.902 ; gain = 399.363
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 968.680 ; gain = 405.141
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[27] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[27]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[27] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[27]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[26] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[26]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[26] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[26]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[25] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[25]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[25] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[25]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[24] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[24]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[24] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[24]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[23] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[23]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[23] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[23]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[22] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[22]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[22] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[22]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[21] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[21]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[21] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[21]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[20] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[20]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[20] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[20]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[19] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[19]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[19] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[19]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[18] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[18]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[18] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[18]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[17] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[17]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[17] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[17]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[16] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[16]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[16] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[16]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[15] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[15]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[15] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[15]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[14] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[14]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[14] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[14]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[13] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[13]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[13] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[13]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[12] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[12]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[12] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[12]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[11] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[11]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[11] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[11]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[10] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[10]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[10] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[10]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[9] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[9]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[9] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[9]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[8] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[8]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[8] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[8]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[7] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[7]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[7] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[7]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[6] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[6]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[6] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[6]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[5] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[5]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[5] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[5]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[4] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[4]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[4] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[4]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[3] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[3]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[3] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[3]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[2] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[2]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[2] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[2]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[1] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[1]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[1] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[1]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[0] with 1st driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[0]/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:37]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin inst/counter[0] with 2nd driver pin 'inst/design_aplikacja_i/design_clock_1_wrapp_0/inst/design_clock_1_i/Clock_0_0/inst/counter_reg[0]__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_clock_1_wrapp_0_0/ipshared/5f4f/src/Clock_0.v:33]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin WR_EN with 1st driver pin 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/DEKODER_ADRESOWY_0/inst/WR_LCD_reg__0/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:59]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin WR_EN with 2nd driver pin 'inst/design_aplikacja_i/design_multikontrole_0/inst/design_multikontroler_i/DEKODER_ADRESOWY_0/inst/WR_LCD_reg/Q' [c:/Users/Admin/repozytorium/project_1/project.src/CALY/design_CALY/ip/design_CALY_design_aplikacja_wra_0_0/src/design_aplikacja_design_multikontrole_0_0/ipshared/1f8b/src/DEKODER_ADRESOWY.v:67]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       29|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 968.680 ; gain = 405.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 968.680 ; gain = 405.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 968.680 ; gain = 405.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 968.680 ; gain = 405.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 968.680 ; gain = 405.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------------------------------------+-------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                                 | RTL Name                      | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------------------------------------+-------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|design_multikontroler_PBLAZE_DOWNLOADER_0_0 | inst/uart_rx/rd_ack_sync2_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++--------------------------------------------+-------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |LED           |         1|
+|2     |dekoder_0     |         1|
+|3     |uart_0        |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |LED       |     1|
+|2     |dekoder_0 |     1|
+|3     |uart_0    |     1|
+|4     |CARRY4    |    27|
+|5     |LUT1      |    26|
+|6     |LUT2      |    83|
+|7     |LUT3      |    87|
+|8     |LUT4      |   148|
+|9     |LUT5      |   130|
+|10    |LUT6      |   263|
+|11    |MUXF7     |     1|
+|12    |RAM16X1D  |     8|
+|13    |RAM32M    |    10|
+|14    |RAM64X1S  |     8|
+|15    |RAMB18E1  |     1|
+|16    |SRL16E    |     1|
+|17    |FDRE      |   508|
+|18    |FDSE      |    18|
++------+----------+------+
+
+Report Instance Areas: 
++------+-------------------------------------+--------------------------------------------+------+
+|      |Instance                             |Module                                      |Cells |
++------+-------------------------------------+--------------------------------------------+------+
+|1     |top                                  |                                            |  1339|
+|2     |  inst                               |design_aplikacja_wrapper                    |  1339|
+|3     |    design_aplikacja_i               |design_aplikacja                            |  1339|
+|4     |      DS18B20_0                      |design_aplikacja_DS18B20_0_0                |   220|
+|5     |        inst                         |DS18B20                                     |   220|
+|6     |          w1rd                       |OW_READ                                     |    61|
+|7     |          w1rst                      |OW_RESET                                    |    27|
+|8     |          w1t                        |TIMER                                       |    28|
+|9     |          w1wr                       |OW_WRITE                                    |    28|
+|10    |      LED_0                          |design_aplikacja_LED_0_0                    |     8|
+|11    |      SERIAL_RX_FIFO_0               |design_aplikacja_SERIAL_RX_FIFO_0_0         |    96|
+|12    |        inst                         |SERIAL_RX_FIFO                              |    96|
+|13    |          uart_rx                    |SERIAL_RX_3                                 |    52|
+|14    |      SERIAL_TX_FIFO_0               |design_aplikacja_SERIAL_TX_FIFO_0_0         |    71|
+|15    |        inst                         |SERIAL_TX_FIFO_1                            |    71|
+|16    |          uart_tx                    |SERIAL_TX_2                                 |    36|
+|17    |      bin2bcd_0                      |design_aplikacja_bin2bcd_0_0                |    81|
+|18    |        inst                         |bin2bcd                                     |    81|
+|19    |      design_clock_1_wrapp_0         |design_aplikacja_design_clock_1_wrapp_0_0   |    86|
+|20    |        inst                         |design_clock_1_wrapper                      |    86|
+|21    |          design_clock_1_i           |design_clock_1                              |    86|
+|22    |            Clock_0_0                |design_clock_1_Clock_0_0_1                  |    76|
+|23    |              inst                   |Clock_0                                     |    74|
+|24    |            SERIAL_CLOCK_0           |design_clock_1_SERIAL_CLOCK_0_0             |    10|
+|25    |              inst                   |SERIAL_CLOCK_0                              |    10|
+|26    |      design_lcd_wrapper_0           |design_aplikacja_design_lcd_wrapper_0_0     |   149|
+|27    |        inst                         |design_lcd_wrapper                          |   149|
+|28    |          design_lcd_i               |design_lcd                                  |   149|
+|29    |            laczenie_LCD_0           |design_lcd_laczenie_LCD_0_0                 |     0|
+|30    |            lcd_putchar_8_0          |design_lcd_lcd_putchar_8_0_0                |   149|
+|31    |              inst                   |lcd_putchar_8                               |   149|
+|32    |      design_multikontrole_0         |design_aplikacja_design_multikontrole_0_0   |   616|
+|33    |        inst                         |design_multikontroler_wrapper               |   616|
+|34    |          design_multikontroler_i    |design_multikontroler                       |   616|
+|35    |            DEKODER_ADRESOWY_0       |design_multikontroler_DEKODER_ADRESOWY_0_0  |     7|
+|36    |              inst                   |DEKODER_ADRESOWY                            |     7|
+|37    |            Mux_Multiplekser_0       |design_multikontroler_Mux_Multiplekser_0_0  |     0|
+|38    |            PBLAZE_DOWNLOADER_0      |design_multikontroler_PBLAZE_DOWNLOADER_0_0 |   393|
+|39    |              inst                   |PBLAZE_DOWNLOADER                           |   393|
+|40    |                c1                   |SERIAL_CLOCK                                |    10|
+|41    |                tx1                  |SERIAL_TX_FIFO                              |   117|
+|42    |                  uart_tx            |SERIAL_TX                                   |    40|
+|43    |                uart_rx              |SERIAL_RX                                   |    50|
+|44    |            PBlazeZH_0               |design_multikontroler_PBlazeZH_0_0          |   214|
+|45    |              inst                   |PBlazeZH                                    |   214|
+|46    |            xup_or2_0_0              |design_multikontroler_xup_or2_0_0_0         |     1|
+|47    |            xup_or2_1_0              |design_multikontroler_xup_or2_1_0_0         |     1|
+|48    |      design_on_off_downlo_0         |design_aplikacja_design_on_off_downlo_0_0   |    12|
+|49    |        inst                         |design_on_off_downloader_wrapper            |    12|
+|50    |          design_on_off_downloader_i |design_on_off_downloader                    |    12|
+|51    |            dekoder_0_0              |design_on_off_downloader_dekoder_0_0_0      |     3|
+|52    |            uart_0_0                 |design_on_off_downloader_uart_0_0_0         |     9|
++------+-------------------------------------+--------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 968.680 ; gain = 405.141
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 58 critical warnings and 66 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 968.680 ; gain = 252.840
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 968.680 ; gain = 405.141
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 55 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 970.031 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 26 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 8 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 10 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+226 Infos, 133 Warnings, 58 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 970.031 ; gain = 675.320
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 970.031 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Admin/repozytorium/project_1/project_1.runs/design_CALY_design_aplikacja_wra_0_0_synth_1/design_CALY_design_aplikacja_wra_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_CALY_design_aplikacja_wra_0_0, cache-ID = 868b49f61ec2e94b
+INFO: [Coretcl 2-1174] Renamed 54 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 970.031 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Admin/repozytorium/project_1/project_1.runs/design_CALY_design_aplikacja_wra_0_0_synth_1/design_CALY_design_aplikacja_wra_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_CALY_design_aplikacja_wra_0_0_utilization_synth.rpt -pb design_CALY_design_aplikacja_wra_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  3 15:12:52 2020...
