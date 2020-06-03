@@ -1,6 +1,27 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Jun  2 21:40:55 2020
+| Host         : DESKTOP-8EKKICA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_aplikacja_design_lcd_wrapper_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_aplikacja_design_lcd_wrapper_0_0 (xilinx.com:user:design_lcd_wrapper:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
 | Date         : Tue Jun  2 19:20:31 2020
 | Host         : DESKTOP-8EKKICA running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
