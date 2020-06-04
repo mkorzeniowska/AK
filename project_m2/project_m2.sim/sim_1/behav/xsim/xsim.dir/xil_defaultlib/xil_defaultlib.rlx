@@ -1,0 +1,21 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Admin/repozytorium/project_m2/project_m2.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/debouncer.v,1482159772,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ds18b20.v,,debouncer,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v,1482159858,verilog,,,,pic_test,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/bin2bcd.v,1482159706,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/debouncer.v,,bin2bcd,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ds18b20.v,1482159830,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/intel_hex_downloader.v,,DS18B20,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/intel_hex_downloader.v,1482159854,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/lcd_putchar_8.v,,INTELHEX_DOWNLOADER,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/lcd_putchar_8.v,1482159758,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_read.v,,lcd_putchar_8,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_read.v,1482159822,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_reset.v,,OW_READ,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_reset.v,1482159818,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_write.v,,OW_RESET,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_write.v,1482159826,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/pic16_8zh.v,,OW_WRITE,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/pic16_8zh.v,1482159852,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_clock.v,,PIC16_8ZH,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_clock.v,1482159790,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_rx.v,,SERIAL_CLOCK,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_rx.v,1482159794,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_rx_fifo.v,,SERIAL_RX,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_rx_fifo.v,1482159800,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_tx.v,,SERIAL_RX_FIFO,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_tx.v,1482159792,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_tx_fifo.v,,SERIAL_TX,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_tx_fifo.v,1482159798,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/timer.v,,SERIAL_TX_FIFO,,,,,,,,
+C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/timer.v,1482159816,verilog,,C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v,,TIMER,,,,,,,,

@@ -1,0 +1,543 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xDEF960869667B64D",
+      "device": "xc7z020clg400-2",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "PIC16_8ZH_0": "",
+      "lcd_putchar_8_0": "",
+      "SERIAL_TX_FIFO_0": "",
+      "PBout_6": "",
+      "util_vector_logic_0": "",
+      "PBout_2": "",
+      "PBout_3": "",
+      "util_vector_logic_1": "",
+      "PBout_7": "",
+      "PBout_4": "",
+      "PBout_5": "",
+      "ADRESS_10": "",
+      "INTELHEX_DOWNLOADER_0": "",
+      "bin2bcd_0": "",
+      "util_vector_logic_2": "",
+      "DS18B20_0": "",
+      "SERIAL_RX_FIFO_0": "",
+      "util_vector_logic_3": "",
+      "PBout_0": "",
+      "data_bcd_7": "",
+      "Mux_Multiplekser_0": "",
+      "PBin_3": "",
+      "data_bcd_8": ""
+    },
+    "ports": {
+      "LED": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "TX": {
+        "direction": "O"
+      },
+      "RX": {
+        "direction": "I"
+      },
+      "CLK": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_CLK_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "PIC16_8ZH_0": {
+        "vlnv": "xilinx.com:user:PIC16_8ZH:1.0",
+        "xci_name": "design_1_PIC16_8ZH_0_0"
+      },
+      "lcd_putchar_8_0": {
+        "vlnv": "xilinx.com:user:lcd_putchar_8:1.0",
+        "xci_name": "design_1_lcd_putchar_8_0_0"
+      },
+      "SERIAL_TX_FIFO_0": {
+        "vlnv": "xilinx.com:user:SERIAL_TX_FIFO:1.0",
+        "xci_name": "design_1_SERIAL_TX_FIFO_0_0"
+      },
+      "PBout_6": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_2_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "6"
+          },
+          "DIN_TO": {
+            "value": "6"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "design_1_util_vector_logic_0_0"
+      },
+      "PBout_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_2_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "2"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "PBout_3": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_xlslice_3_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "3"
+          },
+          "DIN_TO": {
+            "value": "3"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_1": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "design_1_util_vector_logic_1_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          }
+        }
+      },
+      "PBout_7": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_PBout_6_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "7"
+          },
+          "DIN_TO": {
+            "value": "7"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "PBout_4": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_PBout_6_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "4"
+          },
+          "DIN_TO": {
+            "value": "4"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "PBout_5": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_PBout_6_2",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "5"
+          },
+          "DIN_TO": {
+            "value": "5"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "ADRESS_10": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_PBout_2_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "10"
+          },
+          "DIN_TO": {
+            "value": "0"
+          },
+          "DIN_WIDTH": {
+            "value": "13"
+          },
+          "DOUT_WIDTH": {
+            "value": "3"
+          }
+        }
+      },
+      "INTELHEX_DOWNLOADER_0": {
+        "vlnv": "xilinx.com:user:INTELHEX_DOWNLOADER:1.0",
+        "xci_name": "design_1_INTELHEX_DOWNLOADER_0_0"
+      },
+      "bin2bcd_0": {
+        "vlnv": "xilinx.com:user:bin2bcd:1.0",
+        "xci_name": "design_1_bin2bcd_0_0"
+      },
+      "util_vector_logic_2": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "design_1_util_vector_logic_1_1",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "and"
+          }
+        }
+      },
+      "DS18B20_0": {
+        "vlnv": "xilinx.com:user:DS18B20:1.0",
+        "xci_name": "design_1_DS18B20_0_0"
+      },
+      "SERIAL_RX_FIFO_0": {
+        "vlnv": "xilinx.com:user:SERIAL_RX_FIFO:1.0",
+        "xci_name": "design_1_SERIAL_RX_FIFO_0_0"
+      },
+      "util_vector_logic_3": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "design_1_util_vector_logic_2_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "or"
+          }
+        }
+      },
+      "PBout_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_PBout_7_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "1"
+          },
+          "DIN_TO": {
+            "value": "0"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "2"
+          }
+        }
+      },
+      "data_bcd_7": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_data_bcd_11_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "7"
+          },
+          "DIN_TO": {
+            "value": "0"
+          },
+          "DIN_WIDTH": {
+            "value": "12"
+          },
+          "DOUT_WIDTH": {
+            "value": "8"
+          }
+        }
+      },
+      "Mux_Multiplekser_0": {
+        "vlnv": "xilinx.com:user:Mux_Multiplekser:1.0",
+        "xci_name": "design_1_Mux_Multiplekser_0_0"
+      },
+      "PBin_3": {
+        "vlnv": "xilinx.com:user:PBin:1.0",
+        "xci_name": "design_1_PBin_3_0"
+      },
+      "data_bcd_8": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "design_1_data_bcd_7_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "11"
+          },
+          "DIN_TO": {
+            "value": "8"
+          },
+          "DIN_WIDTH": {
+            "value": "12"
+          },
+          "DOUT_WIDTH": {
+            "value": "4"
+          }
+        }
+      }
+    },
+    "nets": {
+      "PIC16_8ZH_0_PCout": {
+        "ports": [
+          "PIC16_8ZH_0/PCout",
+          "LED"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "lcd_putchar_8_0/DATA_IN"
+        ]
+      },
+      "PIC16_8ZH_0_PBout": {
+        "ports": [
+          "PIC16_8ZH_0/PBout",
+          "PBout_3/Din",
+          "PBout_2/Din",
+          "PBout_5/Din",
+          "PBout_6/Din",
+          "PBout_7/Din",
+          "PBout_4/Din",
+          "PBout_0/Din"
+        ]
+      },
+      "PBout_2_Dout": {
+        "ports": [
+          "PBout_2/Dout",
+          "lcd_putchar_8_0/WR_EN"
+        ]
+      },
+      "PBout_3_Dout": {
+        "ports": [
+          "PBout_3/Dout",
+          "SERIAL_TX_FIFO_0/WR_EN"
+        ]
+      },
+      "PBout_7_Dout": {
+        "ports": [
+          "PBout_7/Dout",
+          "util_vector_logic_0/Op1"
+        ]
+      },
+      "PIC16_8ZH_0_PAout": {
+        "ports": [
+          "PIC16_8ZH_0/PAout",
+          "util_vector_logic_0/Op2",
+          "SERIAL_TX_FIFO_0/DATA",
+          "bin2bcd_0/data_in"
+        ]
+      },
+      "PIC16_8ZH_0_ADDRESS": {
+        "ports": [
+          "PIC16_8ZH_0/ADDRESS",
+          "ADRESS_10/Din"
+        ]
+      },
+      "ADRESS_10_Dout": {
+        "ports": [
+          "ADRESS_10/Dout",
+          "INTELHEX_DOWNLOADER_0/ADDRESS"
+        ]
+      },
+      "SERIAL_TX_FIFO_0_TX": {
+        "ports": [
+          "SERIAL_TX_FIFO_0/TX",
+          "INTELHEX_DOWNLOADER_0/TX_INT"
+        ]
+      },
+      "INTELHEX_DOWNLOADER_0_ACTIVE": {
+        "ports": [
+          "INTELHEX_DOWNLOADER_0/ACTIVE",
+          "util_vector_logic_1/Op1"
+        ]
+      },
+      "util_vector_logic_1_Res": {
+        "ports": [
+          "util_vector_logic_1/Res",
+          "util_vector_logic_2/Op1"
+        ]
+      },
+      "util_vector_logic_2_Res": {
+        "ports": [
+          "util_vector_logic_2/Res",
+          "PIC16_8ZH_0/RST"
+        ]
+      },
+      "INTELHEX_DOWNLOADER_0_TX": {
+        "ports": [
+          "INTELHEX_DOWNLOADER_0/TX",
+          "TX"
+        ]
+      },
+      "RX_0_1": {
+        "ports": [
+          "RX",
+          "INTELHEX_DOWNLOADER_0/RX"
+        ]
+      },
+      "INTELHEX_DOWNLOADER_0_RX_INT": {
+        "ports": [
+          "INTELHEX_DOWNLOADER_0/RX_INT",
+          "SERIAL_RX_FIFO_0/RX"
+        ]
+      },
+      "INTELHEX_DOWNLOADER_0_INSTRUCTION": {
+        "ports": [
+          "INTELHEX_DOWNLOADER_0/INSTRUCTION",
+          "PIC16_8ZH_0/INSTRUCTION"
+        ]
+      },
+      "util_vector_logic_3_Res": {
+        "ports": [
+          "util_vector_logic_3/Res",
+          "PIC16_8ZH_0/INT"
+        ]
+      },
+      "PBout_6_Dout": {
+        "ports": [
+          "PBout_6/Dout",
+          "DS18B20_0/ACK"
+        ]
+      },
+      "PBout_5_Dout": {
+        "ports": [
+          "PBout_5/Dout",
+          "bin2bcd_0/start"
+        ]
+      },
+      "PBout_4_Dout": {
+        "ports": [
+          "PBout_4/Dout",
+          "SERIAL_RX_FIFO_0/RD_EN"
+        ]
+      },
+      "SERIAL_RX_FIFO_0_DATA_RDY": {
+        "ports": [
+          "SERIAL_RX_FIFO_0/DATA_RDY",
+          "util_vector_logic_3/Op1",
+          "PBin_3/PBin0"
+        ]
+      },
+      "DS18B20_0_RDY": {
+        "ports": [
+          "DS18B20_0/RDY",
+          "util_vector_logic_3/Op2",
+          "PBin_3/PBin1"
+        ]
+      },
+      "DS18B20_0_BYTE0": {
+        "ports": [
+          "DS18B20_0/BYTE0",
+          "Mux_Multiplekser_0/BYTE0"
+        ]
+      },
+      "DS18B20_0_BYTE1": {
+        "ports": [
+          "DS18B20_0/BYTE1",
+          "Mux_Multiplekser_0/BYTE1"
+        ]
+      },
+      "SERIAL_RX_FIFO_0_DATA": {
+        "ports": [
+          "SERIAL_RX_FIFO_0/DATA",
+          "Mux_Multiplekser_0/DATA"
+        ]
+      },
+      "data_bcd_7_Dout": {
+        "ports": [
+          "data_bcd_7/Dout",
+          "Mux_Multiplekser_0/DATA_BCD"
+        ]
+      },
+      "PBout_0_Dout": {
+        "ports": [
+          "PBout_0/Dout",
+          "Mux_Multiplekser_0/PBout"
+        ]
+      },
+      "Mux_Multiplekser_0_port_in_reg": {
+        "ports": [
+          "Mux_Multiplekser_0/port_in_reg",
+          "PIC16_8ZH_0/PAin"
+        ]
+      },
+      "PBin_3_PBout": {
+        "ports": [
+          "PBin_3/PBout",
+          "PIC16_8ZH_0/PBin"
+        ]
+      },
+      "bin2bcd_0_done": {
+        "ports": [
+          "bin2bcd_0/done",
+          "PBin_3/PBin2"
+        ]
+      },
+      "bin2bcd_0_data_bcd": {
+        "ports": [
+          "bin2bcd_0/data_bcd",
+          "data_bcd_7/Din",
+          "data_bcd_8/Din"
+        ]
+      },
+      "data_bcd_8_Dout": {
+        "ports": [
+          "data_bcd_8/Dout",
+          "PBin_3/PBin4"
+        ]
+      },
+      "CLK_0_1": {
+        "ports": [
+          "CLK",
+          "INTELHEX_DOWNLOADER_0/CLK",
+          "bin2bcd_0/clk",
+          "DS18B20_0/CLK",
+          "PIC16_8ZH_0/CLK",
+          "SERIAL_TX_FIFO_0/CLK_WR",
+          "lcd_putchar_8_0/CLK_WR"
+        ]
+      }
+    }
+  }
+}

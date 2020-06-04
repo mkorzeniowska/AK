@@ -1,0 +1,53 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/bin2bcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/debouncer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debouncer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ds18b20.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DS18B20
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/intel_hex_downloader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module INTELHEX_DOWNLOADER
+INFO: [VRFC 10-2458] undeclared symbol rx_rdy, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/intel_hex_downloader.v:116]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/lcd_putchar_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lcd_putchar_8
+INFO: [VRFC 10-2458] undeclared symbol rs_a, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/lcd_putchar_8.v:96]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_read.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OW_READ
+INFO: [VRFC 10-2458] undeclared symbol in_CRC, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_read.v:31]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OW_RESET
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_write.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OW_WRITE
+INFO: [VRFC 10-2458] undeclared symbol tx_bit, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/ow_write.v:37]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/pic16_8zh.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PIC16_8ZH
+INFO: [VRFC 10-2458] undeclared symbol bank_sel_1, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/pic16_8zh.v:64]
+INFO: [VRFC 10-2458] undeclared symbol tmr0wrap, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/pic16_8zh.v:75]
+INFO: [VRFC 10-2458] undeclared symbol gpr_bank0_access, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/pic16_8zh.v:80]
+INFO: [VRFC 10-2458] undeclared symbol gpr_bank0_cs, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/pic16_8zh.v:81]
+INFO: [VRFC 10-2458] undeclared symbol gpr_bank1_cs, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/pic16_8zh.v:83]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SERIAL_CLOCK
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SERIAL_RX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_rx_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SERIAL_RX_FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SERIAL_TX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/serial_tx_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SERIAL_TX_FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sources_1/imports/Verilog Hajduk/timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TIMER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pic_test
+INFO: [VRFC 10-2458] undeclared symbol sw1, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v:47]
+INFO: [VRFC 10-2458] undeclared symbol sw2, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v:47]
+INFO: [VRFC 10-2458] undeclared symbol sw3, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v:47]
+INFO: [VRFC 10-2458] undeclared symbol sw4, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v:47]
+INFO: [VRFC 10-2458] undeclared symbol rx_rdy, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v:54]
+INFO: [VRFC 10-2458] undeclared symbol bo, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v:62]
+INFO: [VRFC 10-2458] undeclared symbol rst_status, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v:62]
+INFO: [VRFC 10-2458] undeclared symbol ds_rdy, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v:63]
+INFO: [VRFC 10-2458] undeclared symbol b2b_done, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v:66]
+INFO: [VRFC 10-2458] undeclared symbol BUSY_FLAG, assumed default net type wire [C:/Users/Admin/repozytorium/project_m2/project_m2.srcs/sim_1/imports/Verilog Hajduk/pic_test.v:71]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/repozytorium/project_m2/project_m2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

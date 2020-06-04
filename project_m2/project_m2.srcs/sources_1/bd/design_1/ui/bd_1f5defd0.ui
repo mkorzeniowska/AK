@@ -1,0 +1,72 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port TX -pg 1 -lvl 8 -x 1820 -y -70 -defaultsOSRD
+preplace port RX -pg 1 -lvl 0 -x -800 -y -30 -defaultsOSRD
+preplace port CLK -pg 1 -lvl 0 -x -800 -y -130 -defaultsOSRD
+preplace portBus LED -pg 1 -lvl 8 -x 1820 -y -120 -defaultsOSRD
+preplace inst PIC16_8ZH_0 -pg 1 -lvl 5 -x 1000 -y -150 -defaultsOSRD
+preplace inst lcd_putchar_8_0 -pg 1 -lvl 7 -x 1660 -y -400 -defaultsOSRD
+preplace inst SERIAL_TX_FIFO_0 -pg 1 -lvl 7 -x 1660 -y -150 -defaultsOSRD
+preplace inst PBout_6 -pg 1 -lvl 5 -x 1000 -y -540 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 6 -x 1350 -y -350 -defaultsOSRD
+preplace inst PBout_2 -pg 1 -lvl 6 -x 1350 -y -110 -defaultsOSRD
+preplace inst PBout_3 -pg 1 -lvl 6 -x 1350 -y -10 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 3 -x 380 -y -60 -defaultsOSRD
+preplace inst PBout_7 -pg 1 -lvl 5 -x 1000 -y -440 -defaultsOSRD
+preplace inst PBout_4 -pg 1 -lvl 5 -x 1000 -y -740 -defaultsOSRD
+preplace inst PBout_5 -pg 1 -lvl 5 -x 1000 -y -640 -defaultsOSRD
+preplace inst ADRESS_10 -pg 1 -lvl 5 -x 1000 -y 0 -defaultsOSRD
+preplace inst INTELHEX_DOWNLOADER_0 -pg 1 -lvl 2 -x 0 -y -80 -defaultsOSRD
+preplace inst bin2bcd_0 -pg 1 -lvl 2 -x 0 -y -300 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 3 -x 380 -y -280 -defaultsOSRD
+preplace inst DS18B20_0 -pg 1 -lvl 2 -x 0 -y -480 -defaultsOSRD
+preplace inst SERIAL_RX_FIFO_0 -pg 1 -lvl 2 -x 0 -y -680 -defaultsOSRD
+preplace inst util_vector_logic_3 -pg 1 -lvl 3 -x 380 -y -420 -defaultsOSRD
+preplace inst PBout_0 -pg 1 -lvl 5 -x 1000 -y -340 -defaultsOSRD
+preplace inst data_bcd_7 -pg 1 -lvl 1 -x -320 -y -560 -defaultsOSRD
+preplace inst Mux_Multiplekser_0 -pg 1 -lvl 3 -x 380 -y -580 -defaultsOSRD
+preplace inst PBin_3 -pg 1 -lvl 4 -x 660 -y -670 -defaultsOSRD
+preplace inst data_bcd_8 -pg 1 -lvl 1 -x -320 -y -390 -defaultsOSRD
+preplace netloc PIC16_8ZH_0_PCout 1 5 3 1170 50 NJ 50 1790J
+preplace netloc util_vector_logic_0_Res 1 6 1 N -350
+preplace netloc PIC16_8ZH_0_PBout 1 4 2 810 -260 1180
+preplace netloc PBout_2_Dout 1 6 1 1500 -410n
+preplace netloc PBout_3_Dout 1 6 1 1520 -150n
+preplace netloc PBout_7_Dout 1 5 1 1190 -440n
+preplace netloc PIC16_8ZH_0_PAout 1 1 6 -170 -200 N -200 540 -270 N -270 1190 -170 1510
+preplace netloc PIC16_8ZH_0_ADDRESS 1 4 2 810 60 1160
+preplace netloc ADRESS_10_Dout 1 1 5 -180 80 N 80 N 80 N 80 1150
+preplace netloc SERIAL_TX_FIFO_0_TX 1 1 7 -170 90 N 90 N 90 N 90 NJ 90 NJ 90 1780
+preplace netloc INTELHEX_DOWNLOADER_0_ACTIVE 1 2 1 190 -60n
+preplace netloc util_vector_logic_1_Res 1 2 2 230 -150 530
+preplace netloc util_vector_logic_2_Res 1 3 2 N -280 760
+preplace netloc INTELHEX_DOWNLOADER_0_TX 1 2 6 220 -120 550 70 N 70 NJ 70 1530J -50 1800J
+preplace netloc RX_0_1 1 0 2 N -30 N
+preplace netloc INTELHEX_DOWNLOADER_0_RX_INT 1 1 2 -170 -780 160
+preplace netloc INTELHEX_DOWNLOADER_0_INSTRUCTION 1 2 3 190 -140 N -140 N
+preplace netloc util_vector_logic_3_Res 1 3 2 N -420 770
+preplace netloc PBout_6_Dout 1 1 5 -200 -830 N -830 N -830 N -830 1190
+preplace netloc PBout_5_Dout 1 1 5 -190 -800 N -800 N -800 N -800 1150
+preplace netloc PBout_4_Dout 1 1 5 -180 -810 NJ -810 NJ -810 N -810 1160
+preplace netloc SERIAL_RX_FIFO_0_DATA_RDY 1 2 2 210J -700 N
+preplace netloc DS18B20_0_RDY 1 2 2 220 -690 550
+preplace netloc DS18B20_0_BYTE0 1 2 1 190 -580n
+preplace netloc DS18B20_0_BYTE1 1 2 1 200 -560n
+preplace netloc SERIAL_RX_FIFO_0_DATA 1 2 1 190 -670n
+preplace netloc data_bcd_7_Dout 1 1 2 -210 -580 170J
+preplace netloc PBout_0_Dout 1 2 4 230 -820 NJ -820 N -820 1180
+preplace netloc Mux_Multiplekser_0_port_in_reg 1 3 2 NJ -580 780
+preplace netloc PBin_3_PBout 1 4 1 790 -670n
+preplace netloc bin2bcd_0_done 1 2 2 180 -680 530J
+preplace netloc bin2bcd_0_data_bcd 1 0 3 -780 -330 -200J -380 150
+preplace netloc data_bcd_8_Dout 1 1 3 -220 -790 NJ -790 540J
+preplace netloc CLK_0_1 1 0 7 NJ -130 -210J -210 N -210 N -210 800 -280 N -280 1530
+levelinfo -pg 1 -800 -320 0 380 660 1000 1350 1660 1820
+pagesize -pg 1 -db -bbox -sgen -880 -1260 1930 250
+"
+}
+{
+   "da_clkrst_cnt":"1"
+}
